@@ -1,0 +1,30 @@
+@media print {
+
+.clear {clear: both;}
+.clearleft {clear: left;}
+.clearright {clear: right;}
+
+.smalltext {font-size: 90%;}
+
+#d12src {
+	border: none;
+	padding: 0px;
+	page-break-before: always;
+	}
+
+.d12mlatitle {
+	text-align: center;
+	}
+
+.d12srcp {
+	padding-left: 36pt;
+	text-indent: -36pt;
+	margin-bottom: 0;
+	}
+
+.d12citenote {
+	margin-top: 0;
+	padding-left: 36pt;
+	text-indent: 36pt;
+	}
+}

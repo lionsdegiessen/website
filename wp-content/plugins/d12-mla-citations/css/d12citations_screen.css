@@ -1,0 +1,32 @@
+.clear {clear: both;}
+.clearleft {clear: left;}
+.clearright {clear: right;}
+
+.smalltext {font-size: 90%;}
+
+#d12src {
+	border-radius: 4px;
+	border: solid 1px #bbb;
+	margin-top: 10px;
+	padding: 10px;
+	}
+
+.d12mlatitle {
+	text-align: center;
+	}
+
+.d12srcp {
+	padding-left: 20px;
+	text-indent: -20px;
+	margin: 10px 0 0 0;
+	}
+
+.d12citenote {
+	margin-top: 0 !important;
+	padding-left: 20px;
+	text-indent: 20px;
+	}
+
+.d12highlightyellow {
+	background: #FFFF58;
+	}

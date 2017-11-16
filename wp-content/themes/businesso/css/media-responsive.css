@@ -1,0 +1,147 @@
+@media only screen and (min-width: 960px) and (max-width: 1200px){
+.carousel-caption {
+  top:5% !important;
+}
+.carousel-caption h1{
+ font-size:54px;
+ margin:5px 0 !important;
+}
+.carousel-caption p{
+ font-size:20px;
+ line-height:36px;
+}
+.main-btn {
+    font-size: 16px;
+    padding:10px 20px;
+    margin:5px 10px;
+}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+.carousel-caption {
+  top:5% !important;
+}
+.carousel-caption h1{
+ font-size:48px;
+ margin:5px 0 !important;
+}
+.carousel-caption p{
+ font-size:24px;
+ line-height:38px;
+}
+.main-btn {
+    font-size: 16px;
+    padding:10px 20px;
+    margin:5px 10px;
+}
+.navbar-nav {
+    margin: 7.5px 0px !important;
+}
+.navbar-toggle {
+    display: none !important;
+}
+.search-box-top {margin:10px !important;}
+ #trapezoid .pagetitle, .top-breadcrumb ,.contact-top, .site-logo h2{text-align:center !important;float:none !important; display: block !important;}
+  
+ .entry-video iframe{
+  max-width:100% !important;
+  height:400px !important;
+ } 
+ 
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px){ 
+ .carousel-caption {
+  top:5% !important;
+}
+.carousel-caption h1{
+ font-size:40px;
+ margin:5px 0 !important;
+}
+.carousel-caption p{
+ font-size:18px;
+ line-height:30px;
+}
+.main-btn {
+    font-size: 14px;
+    padding:8px 18px;
+    margin:5px 10px;
+}
+.navbar-toggle {
+   display:block !important;
+    float: none !important;
+    font-size: 12px;
+    margin: 13px auto 20px !important;
+    padding: 10px 14px;
+}
+.navbar-nav {
+    margin: 7.5px 0px !important;
+}
+.search-box-top {margin:5px !important;}
+.search-box-top button.btn.btn-search:before { margin-left: -28px !important;}
+ #trapezoid .pagetitle, .top-breadcrumb ,.contact-top, .site-logo h2{text-align:center !important;float:none !important; display: block !important;}
+ .woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+    width:50% !important;
+    clear:both;
+}
+ .entry-video iframe{
+  max-width:100% !important;
+  height:340px !important;
+ } 
+  
+}
+@media only screen and (min-width: 200px) and (max-width: 480px) { 
+.carousel-caption {
+  top:0% !important;
+}
+.carousel-caption h1{
+ font-size:30px;
+ margin:5px 0 !important;
+}
+.carousel-caption p{
+ font-size:14px;
+ line-height:24px;
+}
+.main-btn {
+    font-size: 12px;
+    padding:6px 15px;
+    margin:5px 10px;
+}
+  .carou-direction-nav a {
+    height:50px;
+    width: 30px;
+}
+.carou-direction-nav a:before {
+    font-size:26px;
+    line-height:50px;
+}
+/* Comment Section */
+.comment_box .media-body {
+	float: left;
+}
+.navbar-toggle {
+    display: block !important;
+    float: none;
+    margin: 13px auto 20px;
+    padding: 10px 14px;
+}
+.navbar-nav {
+    margin: 7.5px 0px !important;
+}
+#trapezoid .pagetitle, .top-breadcrumb ,.contact-top, .site-logo h2{text-align:center !important;float:none !important; display: block !important;}
+.search-box-top {
+    margin:5px !important;
+}
+.search-box-top button.btn.btn-search:before { margin-left: -21px !important;}
+  
+ .woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+    width:100% !important;
+}
+.entry-video iframe{
+  max-width:100% !important;
+  height:250px !important;
+ }
+  
+  
+}

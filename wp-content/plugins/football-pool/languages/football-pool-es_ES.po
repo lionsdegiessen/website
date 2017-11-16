@@ -1,0 +1,4128 @@
+# Copyright (C) 2012 Football pool
+# This file is distributed under the same license as the Football pool package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Football pool 2.3.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/football-pool\n"
+"POT-Creation-Date: 2016-04-20 00:22+0200\n"
+"PO-Revision-Date: 2016-04-20 00:23+0200\n"
+"Last-Translator: Antoine Hurkmans <wordpressfootballpool@gmail.com>\n"
+"Language-Team: Cristian Carlucci\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.8.7\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: C:/dev/php/ek2012/wp-content/plugins/football-pool\n"
+
+#: ../_dev/hooks.php:21 ../_dev/hooks.php:157
+#: ../admin/class-football-pool-admin-bonusquestions.php:138
+#: ../classes/class-football-pool-statistics.php:127
+msgid "user"
+msgstr "usuario"
+
+#: ../_dev/hooks.php:22 ../_dev/hooks.php:158
+msgid "predictions"
+msgstr "pronosticos"
+
+#: ../_dev/hooks.php:23 ../_dev/hooks.php:159
+#: ../admin/class-football-pool-admin-bonusquestions.php:142
+#: ../admin/class-football-pool-admin-bonusquestions.php:227
+#: ../admin/class-football-pool-admin-bonusquestions.php:292
+#: ../classes/class-football-pool-chart.php:206
+#: ../classes/class-football-pool-groups.php:330
+#: ../classes/class-football-pool-pool.php:980
+#: ../classes/class-football-pool-pool.php:1302
+#: ../classes/class-football-pool-statistics.php:92
+#: ../pages/class-football-pool-statistics-page.php:300
+msgid "points"
+msgstr "puntos"
+
+#: ../admin/class-football-pool-admin-bonusquestions.php:9
+#: ../admin/class-football-pool-admin-games.php:9
+#: ../admin/class-football-pool-admin-groups.php:9
+#: ../admin/class-football-pool-admin-leagues.php:9
+#: ../admin/class-football-pool-admin-matchtypes.php:9
+#: ../admin/class-football-pool-admin-options.php:13
+#: ../admin/class-football-pool-admin-rankings.php:9
+#: ../admin/class-football-pool-admin-shoutbox.php:9
+#: ../admin/class-football-pool-admin-stadiums.php:9
+#: ../admin/class-football-pool-admin-teams.php:9
+#: ../admin/class-football-pool-admin-users.php:12
+msgid "Overview"
+msgstr "General"
+
+#: ../admin/class-football-pool-admin-bonusquestions.php:10
+msgid ""
+"<p>On this page you can add, change or delete bonus questions.</p><p>The "
+"<em>'User Answers'</em> link in the table view, or <em>'Edit User Answers'</"
+"em> button in the detail view, is used to check answers from your players.</"
+"p><p><strong>Important:</strong> points are only rewarded <em>after</em> the "
+"admin has checked the user answers!</p>"
+msgstr ""
+"<p> En esta página usted puede añadir, cambiar o borrar preguntas de "
+"bonificación.</p><p> El link <em> 'respuestas de usuario' </ em> en la vista "
+"de tabla o el boton<em> 'editar respuestas de los usuarios' </ em> en la "
+"vista detallada, se utiliza para comprobar la respuesta de sus jugadores </"
+"p><p><strong> Importante: </ strong> los puntos sólo son otorgados ​​<em> "
+"después </em> que el administrador controle las respuestas! </ p>"
+
+#: ../admin/class-football-pool-admin-bonusquestions.php:14
+msgid "Score calculation"
+msgstr "Cálculo de la puntuación"
+
+#: ../admin/class-football-pool-admin-bonusquestions.php:15
+msgid ""
+"<p>The score for a bonus question will be added to the players total score "
+"after an admin has 'approved' the answer (<em>'Edit user answers'</em>) and "
+"when the Score Date is filled. The Score Date is the point in time where the "
+"points are added to the total (needed for the charts and/or a ranking for a "
+"given date).</p>\n"
+"\t\t\t\t\t\t<p>You can give a user more points (or less) for a question. Use "
+"the field <em>'points'</em> in the Edit User Answers screen for this; leave "
+"the field empty for standard points.</p>"
+msgstr ""
+"<p>La puntuación para una pregunta bonus se añadirá a la puntuación total de "
+"los jugadores después de que un administrador ha 'aprobado' la respuesta "
+"(<em> 'Editar las respuestas de usuarios\"</em>) y cuando la puntuación se "
+"completa. La puntuación de la fecha es el punto en el tiempo en el que los "
+"puntos se añaden al total (necesario para los gráficos y/o un rango para una "
+"fecha determinada).</p>\n"
+"\t\t\t\t\t\t<p>Usted puede dar a un usuario más puntos (o menos) para una "
+"pregunta. Use el campo <em>'puntos'</em> en la pantalla de Respuestas de "
+"usuarios para editar esto; deje el campo vacío para los puntos estándar.</p>"
+
+#: ../admin/class-football-pool-admin-bonusquestions.php:20
+msgid "Linked questions"
+msgstr "Preguntas vinculadas"
+
+#: ../admin/class-football-pool-admin-bonusquestions.php:21
+msgid ""
+"<p>If a question is linked to a match it will be shown beneath that match in "
+"the prediction screen. Linked questions cannot be shown separately on a "
+"prediction form for questions, but are always shown with the linked match.</"
+"p><p>When the linked match is deleted the question will be unlinked, but "
+"will still be available in the prediction form.</p>"
+msgstr ""
+"<p> Si la pregunta está vinculada a un partido se mostrará debajo de ese "
+"partido en la pantalla de predicción. Preguntas vinculadas no se pueden "
+"mostrar por separado en un formulario de pronosticos para las preguntas, "
+"pero siempre se muestran con el partido vinculado. </ P> Cuando el partido "
+"vinculado se elimina la pregunta será desvinculada, pero seguirán estando "
+"disponibles abajo del formulario de pronosticos. </ p>"
+
+#: ../admin/class-football-pool-admin-bonusquestions.php:25
+msgid "Help section about bonus questions"
+msgstr "Ayuda sobre las preguntas bonus"
+
+#: ../admin/class-football-pool-admin-bonusquestions.php:26
+msgid "Help section about ranking calculation"
+msgstr "Ayuda sobre el cálculo rankings"
+
+#: ../admin/class-football-pool-admin-bonusquestions.php:34
+#: ../admin/class-football-pool-admin-bonusquestions.php:325
+msgid "User Answers"
+msgstr "Respuesta del usuario"
+
+#: ../admin/class-football-pool-admin-bonusquestions.php:42
+#: ../pages/class-football-pool-pool-page.php:46
+msgid "Bonus questions"
+msgstr "Preguntas bonus"
+
+#: ../admin/class-football-pool-admin-bonusquestions.php:56
+msgid "Question saved."
+msgstr "Pregunta guardada"
+
+#: ../admin/class-football-pool-admin-bonusquestions.php:57
+#: ../admin/class-football-pool-admin-bonusquestions.php:71
+#: ../admin/class-football-pool-admin-bonusquestions.php:128
+#: ../admin/class-football-pool-admin-bonusquestions.php:174
+#: ../admin/class-football-pool-admin-bonusquestions.php:279
+#: ../admin/class-football-pool-admin-games.php:559
+#: ../admin/class-football-pool-admin-groups.php:36
+#: ../admin/class-football-pool-admin-groups.php:77
+#: ../admin/class-football-pool-admin-leagues.php:33
+#: ../admin/class-football-pool-admin-leagues.php:75
+#: ../admin/class-football-pool-admin-matchtypes.php:59
+#: ../admin/class-football-pool-admin-matchtypes.php:101
+#: ../admin/class-football-pool-admin-rankings.php:42
+#: ../admin/class-football-pool-admin-rankings.php:55
+#: ../admin/class-football-pool-admin-rankings.php:97
+#: ../admin/class-football-pool-admin-rankings.php:264
+#: ../admin/class-football-pool-admin-shoutbox.php:34
+#: ../admin/class-football-pool-admin-shoutbox.php:81
+#: ../admin/class-football-pool-admin-stadiums.php:34
+#: ../admin/class-football-pool-admin-stadiums.php:78
+#: ../admin/class-football-pool-admin-teams.php:66
+#: ../admin/class-football-pool-admin-teams.php:131
+msgid "Save & Close"
+msgstr "Guardar y cerrar"
+
+#: ../admin/class-football-pool-admin-bonusquestions.php:70
+msgid "Answers updated."
+msgstr "Respuestas actualizadas"
+
+#: ../admin/class-football-pool-admin-bonusquestions.php:82
+#, php-format
+msgid "Question id:%s deleted."
+msgstr "Pregunta id:%s eliminada"
+
+#: ../admin/class-football-pool-admin-bonusquestions.php:86
+#, php-format
+msgid "%s questions deleted."
+msgstr "%s preguntas eliminadas"
+
+#: ../admin/class-football-pool-admin-bonusquestions.php:120
+#: ../admin/class-football-pool-admin-bonusquestions.php:139
+#: ../admin/class-football-pool-admin-bonusquestions.php:238
+#: ../admin/class-football-pool-admin-bonusquestions.php:295
+#: ../classes/class-football-pool-pool.php:964
+#: ../classes/class-football-pool-pool.php:1318
+#: ../classes/class-football-pool-statistics.php:99
+#: ../classes/class-football-pool-statistics.php:128
+msgid "answer"
+msgstr "respuesta"
+
+#: ../admin/class-football-pool-admin-bonusquestions.php:122
+#: ../classes/class-football-pool-pool.php:977
+#: ../classes/class-football-pool-statistics.php:89
+msgid "variable"
+msgstr "variable"
+
+#: ../admin/class-football-pool-admin-bonusquestions.php:123
+msgid "point(s)"
+msgstr "punto(s)"
+
+#: ../admin/class-football-pool-admin-bonusquestions.php:124
+#: ../admin/class-football-pool-admin-bonusquestions.php:228
+#: ../admin/class-football-pool-admin-bonusquestions.php:293
+#: ../classes/class-football-pool-pool.php:958
+msgid "answer before"
+msgstr "responder antes"
+
+#: ../admin/class-football-pool-admin-bonusquestions.php:140
+#: ../classes/class-football-pool-chart-data.php:295
+#: ../classes/class-football-pool-chart-data.php:309
+msgid "correct"
+msgstr "correcto"
+
+#: ../admin/class-football-pool-admin-bonusquestions.php:141
+msgid "false"
+msgstr "falso"
+
+#: ../admin/class-football-pool-admin-bonusquestions.php:142
+#: ../admin/class-football-pool-admin-bonusquestions.php:161
+msgid "Leave empty if you don't want to change the standard points."
+msgstr "Dejar en blanco si no desea cambiar los puntos estándar."
+
+#: ../admin/class-football-pool-admin-bonusquestions.php:165
+msgid "No answers yet."
+msgstr "Sin respuestas todavia"
+
+#: ../admin/class-football-pool-admin-bonusquestions.php:181
+msgid "No questions, users or answers found."
+msgstr "No se encontraron preguntas, usuarios o respuestas"
+
+#: ../admin/class-football-pool-admin-bonusquestions.php:207
+msgid "text"
+msgstr "texto"
+
+#: ../admin/class-football-pool-admin-bonusquestions.php:208
+msgid "multiline text"
+msgstr ""
+
+#: ../admin/class-football-pool-admin-bonusquestions.php:209
+#, fuzzy
+msgid "multiple choice, 1 answer (radio list)"
+msgstr "multiple choice (1 respuesta)"
+
+#: ../admin/class-football-pool-admin-bonusquestions.php:210
+#, fuzzy
+msgid "multiple choice, 1 answer (dropdown)"
+msgstr "multiple choice (1 respuesta)"
+
+#: ../admin/class-football-pool-admin-bonusquestions.php:211
+#, fuzzy
+msgid "multiple choice, one or more answers (checkbox list)"
+msgstr "múltiple choice (una o mas respuestas)"
+
+#: ../admin/class-football-pool-admin-bonusquestions.php:216
+msgid "not linked"
+msgstr "no vinculada"
+
+#: ../admin/class-football-pool-admin-bonusquestions.php:226
+#: ../admin/class-football-pool-admin-bonusquestions.php:291
+msgid "question"
+msgstr "pregunta"
+
+#: ../admin/class-football-pool-admin-bonusquestions.php:227
+msgid ""
+"The points a user gets as an award for answering the question correctly."
+msgstr ""
+"Los puntos que obtienen los usuarios como premio al responder una pregunta "
+"correctamente"
+
+#: ../admin/class-football-pool-admin-bonusquestions.php:228
+msgid "A user may give an answer untill this date and time."
+msgstr "Los usuarios deben responder hasta esta fecha y hora"
+
+#: ../admin/class-football-pool-admin-bonusquestions.php:228
+#: ../admin/class-football-pool-admin-bonusquestions.php:229
+#: ../admin/class-football-pool-admin-games.php:635
+msgid "local time"
+msgstr "hora local"
+
+#: ../admin/class-football-pool-admin-bonusquestions.php:229
+#: ../admin/class-football-pool-admin-bonusquestions.php:294
+msgid "score date"
+msgstr "fecha de puntaje"
+
+#: ../admin/class-football-pool-admin-bonusquestions.php:229
+#, fuzzy
+msgid ""
+"The points awarded will be added to the total points for a user after this "
+"date. If not supplied, the points won't be added."
+msgstr ""
+"El total de los puntos otorgados seran agregados al puntaje total del "
+"usuario despues de esta fecha (para los graficos). Si no es configurado, los "
+"puntos no seran sumados"
+
+# Last matches
+#: ../admin/class-football-pool-admin-bonusquestions.php:232
+msgid "link to match"
+msgstr "link al partido"
+
+#: ../admin/class-football-pool-admin-bonusquestions.php:236
+msgid ""
+"Linked questions are placed directly beneath the match on the prediction "
+"form."
+msgstr ""
+"Las preguntas vinculadas se colocan directamente debajo del partido en el "
+"formulario de pronosticos."
+
+#: ../admin/class-football-pool-admin-bonusquestions.php:238
+msgid "The correct answer (used as a reference)."
+msgstr "La respuesta correcta (usado como referencia)"
+
+#: ../admin/class-football-pool-admin-bonusquestions.php:239
+#, fuzzy
+msgid "auto set user answers"
+msgstr "ver las respuesta de otros usuarios"
+
+#: ../admin/class-football-pool-admin-bonusquestions.php:239
+msgid ""
+"If checked on save the user answers will be checked against the given answer "
+"(a text compare is used). Useful for questions of type multiple choice."
+msgstr ""
+
+#: ../admin/class-football-pool-admin-bonusquestions.php:242
+msgid "type"
+msgstr "tipo"
+
+#: ../admin/class-football-pool-admin-bonusquestions.php:257
+msgid "multiple choice options"
+msgstr "Opciones multiple choice"
+
+#: ../admin/class-football-pool-admin-bonusquestions.php:260
+msgid ""
+"A semicolon separated list of answer possibilities. Only applicable for "
+"multiple choice questions."
+msgstr ""
+"Una coma separa la lista de posibles respuestas. Solo aplicable para "
+"preguntas multiple choice"
+
+#: ../admin/class-football-pool-admin-bonusquestions.php:266
+msgid "max answers for multiple choice"
+msgstr "máximo de preguntas para múltiple choice"
+
+#: ../admin/class-football-pool-admin-bonusquestions.php:269
+msgid ""
+"Optional: The maximum number of options a user may select (empty = "
+"unlimited). Only applicable for multiple choice questions with one or more "
+"answers."
+msgstr ""
+"Opcional: Maximo numero de opciones que puede seleccionar un usuario (vacio "
+"= ilimitado). Solo aplica a preguntas múltiple choice con una o mas "
+"respuestas."
+
+#: ../admin/class-football-pool-admin-bonusquestions.php:273
+#: ../classes/class-football-pool-pool.php:937
+msgid "photo question"
+msgstr "Foto pregunta"
+
+#: ../admin/class-football-pool-admin-bonusquestions.php:273
+msgid ""
+"Add a URL to a photo for a photo question, or choose one from the media "
+"library (optional)."
+msgstr ""
+"Agregar una URL a una foto para una pregunta foto, o elegir una de la "
+"biblioteca multimedia (opcional)"
+
+#: ../admin/class-football-pool-admin-bonusquestions.php:282
+msgid "Edit User Answers"
+msgstr "Editar respuestas del usuario"
+
+#: ../admin/class-football-pool-admin-bonusquestions.php:293
+#: ../admin/class-football-pool-admin-bonusquestions.php:294
+msgid "e.g."
+msgstr "por ejemplo"
+
+# Last matches
+#: ../admin/class-football-pool-admin-bonusquestions.php:296
+#, fuzzy
+msgid "linked to match"
+msgstr "link al partido"
+
+#: ../admin/class-football-pool-admin-bonusquestions.php:324
+#: ../admin/class-football-pool-admin-games.php:651
+#: ../admin/class-football-pool-admin-groups.php:98
+#: ../admin/class-football-pool-admin-leagues.php:134
+#: ../admin/class-football-pool-admin-matchtypes.php:155
+#: ../admin/class-football-pool-admin-rankings.php:313
+#: ../admin/class-football-pool-admin-shoutbox.php:112
+#: ../admin/class-football-pool-admin-stadiums.php:135
+#: ../admin/class-football-pool-admin-teams.php:158
+#: ../admin/class-football-pool-admin.php:975
+msgid "Delete"
+msgstr "Eliminar"
+
+#: ../admin/class-football-pool-admin-bonusquestions.php:324
+msgid "You are about to delete one or more bonus questions."
+msgstr "Estas a punto de borrar una o mas preguntas con bonos"
+
+#: ../admin/class-football-pool-admin-bonusquestions.php:324
+#: ../admin/class-football-pool-admin-games.php:648
+#: ../admin/class-football-pool-admin-groups.php:98
+#: ../admin/class-football-pool-admin-leagues.php:134
+#: ../admin/class-football-pool-admin-matchtypes.php:155
+#: ../admin/class-football-pool-admin-rankings.php:313
+#: ../admin/class-football-pool-admin-shoutbox.php:112
+#: ../admin/class-football-pool-admin-stadiums.php:135
+#: ../admin/class-football-pool-admin-teams.php:158
+msgid "Are you sure? `OK` to delete, `Cancel` to stop."
+msgstr "Estas seguro? `OK` para eliminar, `Cancelar` para detenerse"
+
+#: ../admin/class-football-pool-admin-games.php:10
+msgid ""
+"<p>On this page you can quickly edit match scores and team names for final "
+"rounds (if applicable). If you wish to change all information about a match, "
+"then click the <em>'edit'</em> link.</p><p>After saving the match data the "
+"pool ranking is recalculated. If you have a lot of users this may take a "
+"while. You can (temporarily) disable the automatic recalculation of scores "
+"in the Plugin Options.</p>"
+msgstr ""
+"<p>En esta página puede editar rápidamente las puntuaciones del partido y "
+"los nombres de equipo para las rondas finales (si aplica). Si desea cambiar "
+"toda la información sobre un partido, haga clic en el link <em> 'editar' </ "
+"em>. </p> Después de guardar los datos de los partidos se vuelve a calcular "
+"los puntos. Si usted tiene una gran cantidad de usuarios este proceso puede "
+"tomar un tiempo. Usted puede (temporalmente) desactivar el cálculo "
+"automático de las puntuaciones en las Opciones de Plugin. </p>"
+
+#: ../admin/class-football-pool-admin-games.php:14
+msgid "Import & Export"
+msgstr "Importar y Exportar"
+
+#: ../admin/class-football-pool-admin-games.php:15
+msgid ""
+"<p>Matches can be imported into the plugin using the import function "
+"(<em>'Bulk change game schedule'</em>). See the help page for more "
+"information about the required format.</p><p>On the import screen you can "
+"choose one of the already uploaded schedules or upload a new one (if write "
+"is enabled on the upload directory).</p><p>The import can add matches to "
+"your schedule, or completely overwrite the existing schedule. Please beware "
+"that when overwriting the schedule all existing predictions and rankings "
+"will be lost.</p><p>Existing matches can be exported using the <em>'Download "
+"game schedule'</em> button.</p>"
+msgstr ""
+"<p>Los partidos se pueden importar en el plug-in usando la función de "
+"importación (<em>'Cambio masivo de partidos' </em>). Vea la página de ayuda "
+"para obtener más información sobre el formato requerido.</p><p>En la "
+"pantalla de importación se puede elegir uno de los programas ya cargados o "
+"cargar una nueva (si escritura está habilitada en el directorio de carga). </"
+"p><p>La importación puede añadir partidos a su calendario, o sobrescribir "
+"por completo la programación existente. Por favor, ten en cuenta que si "
+"quiere sobrescribir el programa, se perderán todas las predicciones y "
+"clasificaciones existentes. </p><p> Los partidos existentes se pueden "
+"exportar utilizando el boton <em> 'Descargar calendario de partidos' </ em>."
+"</p>"
+
+#: ../admin/class-football-pool-admin-games.php:19
+msgid "Match details"
+msgstr "Detalles del partido"
+
+#: ../admin/class-football-pool-admin-games.php:20
+msgid "<ul><li><em>match date</em> must be in UTC format.</li></ul>"
+msgstr ""
+"<ul><li><em>la fecha del partido</em> debe estar en el formato UTC.</li></ul>"
+
+#: ../admin/class-football-pool-admin-games.php:24
+msgid "Help section about matches and the import"
+msgstr "Ayuda sobre los partidos e importacion"
+
+#: ../admin/class-football-pool-admin-games.php:25
+msgid "Plugin options page"
+msgstr "Pagina de opciones del plugin"
+
+#: ../admin/class-football-pool-admin-games.php:33
+#: ../admin/class-football-pool-admin-games.php:44
+#: ../admin/class-football-pool-admin.php:117
+#: ../assets/admin/tinymce/tinymce-dialog.php:139
+msgid "Matches"
+msgstr "Partidos"
+
+#: ../admin/class-football-pool-admin-games.php:78
+#, php-format
+msgid "Game %d deleted."
+msgstr "Torneo %d eliminado."
+
+#: ../admin/class-football-pool-admin-games.php:80
+msgid "Error performing the requested action."
+msgstr "Error al intentar de ejecutar la accion"
+
+#: ../admin/class-football-pool-admin-games.php:101
+msgid "Upload of csv file failed."
+msgstr "La carga del CVS fallo"
+
+#: ../admin/class-football-pool-admin-games.php:104
+msgid "Upload of csv file successful."
+msgstr "La  carga del CSV fue satisfactoria"
+
+#: ../admin/class-football-pool-admin-games.php:150
+#, php-format
+msgid "Column %d header should be \"%s\" &rArr; not \"%s\""
+msgstr "El encabezado de la columna %d debe ser \"%s\" &rArr; no \"%s\""
+
+#: ../admin/class-football-pool-admin-games.php:196
+#: ../admin/class-football-pool-admin-games.php:220
+#, php-format
+msgid "Team %d added: %s"
+msgstr "El equipo %d fue agregado: %s"
+
+#: ../admin/class-football-pool-admin-games.php:233
+#, php-format
+msgid "Stadium %d added: %s"
+msgstr "El estadio %d fue agregado: %s"
+
+#: ../admin/class-football-pool-admin-games.php:242
+#, php-format
+msgid "Match Type %d added: %s"
+msgstr "La fecha o ronda %d fue agregado: %s"
+
+#: ../admin/class-football-pool-admin-games.php:253
+#, php-format
+msgid "Match %d imported: %s - %s for date \"%s\""
+msgstr "El partido %d fue importado: %s - %s para la fecha \"%s\""
+
+#: ../admin/class-football-pool-admin-games.php:261
+#, php-format
+msgid ""
+"Imported csv file should contain %d columns (header contains %d columns). "
+"See help page for the correct format."
+msgstr ""
+"Csv importado debe contener% d columnas (encabezado contiene% d columnas). "
+"Ver la página de ayuda para el formato correcto."
+
+#: ../admin/class-football-pool-admin-games.php:265
+msgid "No csv file selected."
+msgstr "Ningun archivo CSV seleccionado"
+
+#: ../admin/class-football-pool-admin-games.php:267
+msgid "Please check if the csv file exists and is readable."
+msgstr "Por favor revisa que el archivo CSV exista y sea leible"
+
+#: ../admin/class-football-pool-admin-games.php:274
+msgid "Done"
+msgstr ""
+
+#: ../admin/class-football-pool-admin-games.php:307
+msgid ""
+"Please make sure that the directory 'upload' exists in the plugin directory "
+"and that it is readable!"
+msgstr ""
+"Por favor asegurase que el directorio \"upload\" exista en el directorio del "
+"plugin y que sea leible"
+
+#: ../admin/class-football-pool-admin-games.php:310
+msgid ""
+"Uploading of new csv files is not possible at the moment. Directory 'upload' "
+"is not writable."
+msgstr ""
+"La carga de nuevos archivos CSV no es posible en este momento. El directorio "
+"no puede escribirse"
+
+#: ../admin/class-football-pool-admin-games.php:314
+msgid "Choose a new game schedule"
+msgstr "Seleccione una nueva programación de juego"
+
+#: ../admin/class-football-pool-admin-games.php:315
+msgid ""
+"Import any of the following files. Overwrite the existing game schedule or "
+"add to the existing schedule."
+msgstr ""
+"Importe alguno de los siguientes archivos. Sobrescriba la programación "
+"existente o agregue al existente"
+
+#: ../admin/class-football-pool-admin-games.php:322
+msgid "all files"
+msgstr "todos los archivos"
+
+#: ../admin/class-football-pool-admin-games.php:323
+#, php-format
+msgid "only '%s' files"
+msgstr "solo '%s' archivos"
+
+#: ../admin/class-football-pool-admin-games.php:328
+msgid "change"
+msgstr "cambiar"
+
+#: ../admin/class-football-pool-admin-games.php:336
+msgid "File"
+msgstr "Archivo"
+
+#: ../admin/class-football-pool-admin-games.php:337
+msgid "Contributor"
+msgstr "Colaborador"
+
+#: ../admin/class-football-pool-admin-games.php:338
+msgid "Assets"
+msgstr "Bienes"
+
+#: ../admin/class-football-pool-admin-games.php:350
+msgid "Upload these files to your assets folder in the plugin directory"
+msgstr ""
+"Subi estos archivos a tu carpeta \"assets\" dentro del directorio del plugin"
+
+#: ../admin/class-football-pool-admin-games.php:350
+msgid "download files"
+msgstr "descargar archivos"
+
+#: ../admin/class-football-pool-admin-games.php:363
+msgid "Import CSV"
+msgstr "Importar CSV"
+
+#: ../admin/class-football-pool-admin-games.php:366
+msgid "Are you sure you want to add these matches to the existing schedule?"
+msgstr ""
+"Esta seguro que quiere agregar estos partidos a la programación existente?"
+
+#: ../admin/class-football-pool-admin-games.php:371
+msgid "Import CSV & Overwrite"
+msgstr "Importar CSV y sobrescribir"
+
+#: ../admin/class-football-pool-admin-games.php:375
+msgid ""
+"Are you sure you want to overwrite the game schedule with this schedule?\\n"
+"\\nAll predictions and scores will also be overwritten!"
+msgstr ""
+"Esta seguro que quiere agregar estos partidos a la programación existente?\\n"
+"\\nTodos los pronósticos y puntuaciones seran sobrescritas!"
+
+#: ../admin/class-football-pool-admin-games.php:376
+msgid "Are you really, really, really sure?"
+msgstr ""
+
+#: ../admin/class-football-pool-admin-games.php:384
+msgid "No csv files found in 'upload' directory."
+msgstr "Ningun archivo CSV fue encontrado en el directorio \"upload\""
+
+#: ../admin/class-football-pool-admin-games.php:393
+msgid "Upload new game schedule"
+msgstr "Cargar una nueva programación de juego"
+
+#: ../admin/class-football-pool-admin-games.php:400
+msgid "Upload CSV"
+msgstr "Cargar CSV"
+
+#: ../admin/class-football-pool-admin-games.php:431
+msgid "Bulk change game schedule"
+msgstr "Cambiar de forma masiva la programación de partidos"
+
+#: ../admin/class-football-pool-admin-games.php:433
+msgid "Download game schedule"
+msgstr "Descargar programación de juego"
+
+#: ../admin/class-football-pool-admin-games.php:463
+msgid "Values updated."
+msgstr "Valores actualizados"
+
+#: ../admin/class-football-pool-admin-games.php:539
+#, php-format
+msgid ""
+"You have to enter some <a href=\"%s\">teams</a>, <a href=\"%s\">venues</a> "
+"and <a href=\"%s\">match types</a> first."
+msgstr ""
+"Deberás ingresar algunos <a href=\"%s\">equipos</a>, <a href=\"%s"
+"\">estadios</a> y <a href=\"%s\">rondas o fechas</a> primero."
+
+#: ../admin/class-football-pool-admin-games.php:540
+#: ../admin/class-football-pool-admin-users.php:84
+msgid "Back"
+msgstr "Atrás"
+
+#: ../admin/class-football-pool-admin-games.php:548
+msgid "match date (UTC)"
+msgstr "fecha del partido (UTC)"
+
+#: ../admin/class-football-pool-admin-games.php:548
+#: ../admin/class-football-pool-admin-games.php:635
+msgid "time of the match in local time (WordPress setting)"
+msgstr ""
+
+#: ../admin/class-football-pool-admin-games.php:548
+#, php-format
+msgid "local time is %s"
+msgstr "la hora local es %s"
+
+#: ../admin/class-football-pool-admin-games.php:549
+msgid "home team"
+msgstr "Equipo local"
+
+#: ../admin/class-football-pool-admin-games.php:550
+msgid "away team"
+msgstr "equipo visitante"
+
+#: ../admin/class-football-pool-admin-games.php:551
+msgid "home score"
+msgstr "goles local"
+
+#: ../admin/class-football-pool-admin-games.php:552
+msgid "away score"
+msgstr "goles visitante"
+
+#: ../admin/class-football-pool-admin-games.php:553
+msgid "stadium"
+msgstr "Estadio"
+
+#: ../admin/class-football-pool-admin-games.php:554
+#: ../admin/class-football-pool-admin-matchtypes.php:140
+msgid "match type"
+msgstr "fecha o ronda"
+
+#: ../admin/class-football-pool-admin-games.php:560
+#: ../classes/class-football-pool-pool.php:1366
+msgid "Save"
+msgstr "Guardar"
+
+#: ../admin/class-football-pool-admin-games.php:613
+#: ../admin/class-football-pool-admin-games.php:614
+#, fuzzy
+msgid "import a new schedule here"
+msgstr "Cargar una nueva programación de juego"
+
+#: ../admin/class-football-pool-admin-games.php:630
+#: ../classes/class-football-pool-matches.php:371
+#: ../classes/class-football-pool-matches.php:513
+msgid "M d, Y"
+msgstr "M d, Y"
+
+#: ../admin/class-football-pool-admin-games.php:636
+msgid "UTC"
+msgstr "UTC"
+
+#: ../admin/class-football-pool-admin-games.php:645
+#, php-format
+msgid "You are about to delete match %d."
+msgstr "Estas a punto de eliminar el partido %d"
+
+#: ../admin/class-football-pool-admin-games.php:651
+#: ../admin/class-football-pool-admin-users.php:485
+#: ../admin/class-football-pool-admin.php:956
+msgid "Edit"
+msgstr ""
+
+#: ../admin/class-football-pool-admin-games.php:652
+msgid "change match time"
+msgstr "cambiar la hora del partido"
+
+#: ../admin/class-football-pool-admin-groups.php:10
+msgid ""
+"<p>On this page you can add, change or delete groups.</p><p>Groups are used "
+"in a typical tournament setting to group teams for a group phase. After the "
+"group phase some teams advance to the final rounds.</p>"
+msgstr ""
+"<p> En esta página usted puede añadir, cambiar o eliminar grupos. </p><p>Los "
+"grupos se utilizan en un ajuste de torneo para la fase de grupo. Después de "
+"la fase de grupos algunos equipos avanzan a las rondas finales. </p>"
+
+#: ../admin/class-football-pool-admin-groups.php:14
+msgid "Help section about groups"
+msgstr "Ayuda sobre grupos"
+
+#: ../admin/class-football-pool-admin-groups.php:21
+#: ../admin/class-football-pool-admin.php:198
+msgid "Groups"
+msgstr "Grupos"
+
+#: ../admin/class-football-pool-admin-groups.php:35
+msgid "Group saved."
+msgstr "Grupo guardado."
+
+#: ../admin/class-football-pool-admin-groups.php:47
+#, php-format
+msgid "Group id:%d deleted."
+msgstr "Grupo id:%d eliminado."
+
+#: ../admin/class-football-pool-admin-groups.php:51
+#, php-format
+msgid "%d groups deleted."
+msgstr "%d grupos eliminados."
+
+#: ../admin/class-football-pool-admin-groups.php:71
+#: ../admin/class-football-pool-admin-matchtypes.php:94
+#: ../admin/class-football-pool-admin-rankings.php:256
+#: ../admin/class-football-pool-admin-shoutbox.php:73
+#: ../admin/class-football-pool-admin-shoutbox.php:97
+#: ../admin/class-football-pool-admin-stadiums.php:70
+#: ../admin/class-football-pool-admin-teams.php:117
+#: ../admin/class-football-pool-admin-users.php:229
+#: ../assets/admin/tinymce/tinymce-dialog.php:514
+#: ../classes/class-football-pool-statistics.php:195
+msgid "name"
+msgstr "nombre"
+
+#: ../admin/class-football-pool-admin-groups.php:87
+#: ../admin/class-football-pool-admin-teams.php:122
+msgid "group"
+msgstr "grupo"
+
+#: ../admin/class-football-pool-admin-groups.php:98
+msgid "You are about to delete one or more groups."
+msgstr "Estas a punto de eliminar uno o mas grupos"
+
+#: ../admin/class-football-pool-admin-help.php:12
+#: ../admin/class-football-pool-admin.php:206
+#: ../admin/class-football-pool-admin.php:207
+#: ../admin/class-football-pool-admin.php:260
+msgid "Help"
+msgstr "Ayuda"
+
+#: ../admin/class-football-pool-admin-help.php:201
+#, fuzzy
+msgid "Force Calculation"
+msgstr "Cálculo de la puntuación"
+
+#: ../admin/class-football-pool-admin-leagues.php:10
+msgid "<p>On this page you can add, change or delete leagues.</p>"
+msgstr "<p> En esta página usted puede añadir, cambiar o eliminar ligas. </ p>"
+
+#: ../admin/class-football-pool-admin-leagues.php:18
+#: ../admin/class-football-pool-admin-users.php:17
+#: ../admin/class-football-pool-admin.php:171
+msgid "Leagues"
+msgstr "Ligas"
+
+#: ../admin/class-football-pool-admin-leagues.php:32
+msgid "League saved."
+msgstr "Liga guardada"
+
+#: ../admin/class-football-pool-admin-leagues.php:44
+#, php-format
+msgid "League id:%s deleted."
+msgstr "Liga id:%s eliminada"
+
+#: ../admin/class-football-pool-admin-leagues.php:48
+#, php-format
+msgid "%s leagues deleted."
+msgstr "%s ligas eliminadas"
+
+#: ../admin/class-football-pool-admin-leagues.php:68
+#: ../admin/class-football-pool-admin-leagues.php:119
+msgid "league"
+msgstr "liga"
+
+#: ../admin/class-football-pool-admin-leagues.php:69
+#: ../admin/class-football-pool-admin-leagues.php:120
+msgid "image"
+msgstr "imagen"
+
+#: ../admin/class-football-pool-admin-leagues.php:69
+#, fuzzy
+msgid ""
+"Images must be saved in the \"plugin-folder/assets/images/site/\" folder."
+msgstr ""
+"las imagenes deben ser guardadas en el directorio \"plugin-folder/assets\""
+
+#: ../admin/class-football-pool-admin-leagues.php:113
+msgid ""
+"<strong>Important:</strong> at this moment you are not using leagues. This "
+"may be caused by the fact that you didn't add any leagues in the admin, or "
+"because you changed this setting in the <a href=\"?page=footballpool-options"
+"\">plugin options</a>."
+msgstr ""
+"<strong>Importante:</strong> en este momento no estas usando ligas. Esto "
+"puede ser porque no se genero ninguna liga o porque modificaste la "
+"configuración en <a href=\"?page=footballpool-options\">Opciones del plugin</"
+"a>."
+
+#: ../admin/class-football-pool-admin-leagues.php:121
+msgid "league nr"
+msgstr "liga numero"
+
+#: ../admin/class-football-pool-admin-leagues.php:134
+msgid "You are about to delete one or more leagues."
+msgstr "Estas a punto de eliminar una o mas ligas"
+
+#: ../admin/class-football-pool-admin-matchtypes.php:10
+msgid ""
+"<p>On this page you can add, change or delete match types.</p><p>Match types "
+"are used to group matches together on the match schedule screen (e.g. Group "
+"Phase, Quarter Finals).</p>"
+msgstr ""
+"<p>En esta página usted puede añadir, cambiar o eliminar las fechas o "
+"rondas. </p><p> Las fechas o rondas se utilizan para agrupar partidos juntos "
+"en la pantalla de calendario de partidos (por ejemplo, fase de grupos, "
+"cuartos de final). </p>"
+
+#: ../admin/class-football-pool-admin-matchtypes.php:19
+#: ../admin/class-football-pool-admin.php:189
+msgid "Match Types"
+msgstr "Fecha o ronda"
+
+#: ../admin/class-football-pool-admin-matchtypes.php:35
+#, php-format
+msgid "Match type %d is visible."
+msgstr "Fecha o ronda %d es visible"
+
+#: ../admin/class-football-pool-admin-matchtypes.php:37
+#, php-format
+msgid "Match type %d is invisible."
+msgstr "Fecha o ronda %d es invisible."
+
+#: ../admin/class-football-pool-admin-matchtypes.php:44
+#, php-format
+msgid "%d match types made visible."
+msgstr "%d fecha o ronda se hizo visible"
+
+#: ../admin/class-football-pool-admin-matchtypes.php:46
+#, php-format
+msgid "%d match types made invisible."
+msgstr "%d fecha o ronda se hizo invisible"
+
+#: ../admin/class-football-pool-admin-matchtypes.php:58
+msgid "Match type saved."
+msgstr "Fecha o ronda guardada."
+
+#: ../admin/class-football-pool-admin-matchtypes.php:70
+#, php-format
+msgid "Match type id:%s deleted."
+msgstr "Fecha o ronda id:%s eliminada."
+
+#: ../admin/class-football-pool-admin-matchtypes.php:74
+#, php-format
+msgid "%s match types deleted."
+msgstr "%s fecha o ronda eliminada."
+
+#: ../admin/class-football-pool-admin-matchtypes.php:95
+msgid "visible on the website"
+msgstr "visible en la pagina web"
+
+#: ../admin/class-football-pool-admin-matchtypes.php:141
+#, fuzzy
+msgid "id"
+msgstr "ancho"
+
+#: ../admin/class-football-pool-admin-matchtypes.php:142
+msgid "visible"
+msgstr "visible"
+
+#: ../admin/class-football-pool-admin-matchtypes.php:155
+msgid "You are about to delete one or more match types."
+msgstr "Estas a punto de eliminar una o mas fechas/etapas"
+
+#: ../admin/class-football-pool-admin-matchtypes.php:156
+msgid "Make visible"
+msgstr "Hacer visible"
+
+#: ../admin/class-football-pool-admin-matchtypes.php:156
+msgid "You are about to make one or more match types visible."
+msgstr "Estas a punto de hacer una o mas fechas o ronds visibles"
+
+#: ../admin/class-football-pool-admin-matchtypes.php:156
+#: ../admin/class-football-pool-admin-matchtypes.php:157
+#: ../admin/class-football-pool-admin-teams.php:156
+#: ../admin/class-football-pool-admin-teams.php:157
+#: ../admin/class-football-pool-admin-users.php:258
+#: ../admin/class-football-pool-admin-users.php:259
+#, fuzzy
+msgid "Are you sure? `OK` to continue, `Cancel` to stop."
+msgstr "Estas seguro? \"OK\" para activar, \"Cancelar\" para detenerse"
+
+#: ../admin/class-football-pool-admin-matchtypes.php:157
+msgid "Make invisible"
+msgstr "Hacer invisible"
+
+#: ../admin/class-football-pool-admin-matchtypes.php:157
+msgid "You are about to make one or more match types invisible."
+msgstr "Estas a punto de hacer una o mas fechas o ronds invisibles"
+
+#: ../admin/class-football-pool-admin-options.php:14
+msgid ""
+"<p>The fields on this page set different options for the plugin.</p><p>Some "
+"settings have effect on the ranking (e.g. points), when changing such a "
+"setting you can recalculate the ranking on this page with the "
+"<em>'Recalculate scores'</em> button.</p><p>You have to click <em>Save "
+"Changes</em> for the new settings to take effect.</p>"
+msgstr ""
+"<p>Los campos de esta página se establecen distintas opciones para el plugin."
+"</p><p>Algunos ajustes tienen efecto en el ranking (por ejemplo, puntos), al "
+"cambiar un ajuste que puede volver a recalcular el ranking en esta página "
+"con el boton<em> 'Recalcular resultados'</ em>. </p><p>Tiene que hacer clic "
+"<em> Guardar cambios </em> para que los cambios surtan efecto. </p>"
+
+#: ../admin/class-football-pool-admin-options.php:18
+#: ../admin/class-football-pool-admin-rankings.php:19
+msgid "Help section about rankings"
+msgstr "Ayuda sobre rankings"
+
+#: ../admin/class-football-pool-admin-options.php:92
+msgid "homepage"
+msgstr ""
+
+#: ../admin/class-football-pool-admin-options.php:96
+msgid "edit profile"
+msgstr ""
+
+#: ../admin/class-football-pool-admin-options.php:127
+#, fuzzy
+msgid "Matches page"
+msgstr "Partidos"
+
+#: ../admin/class-football-pool-admin-options.php:136
+#, fuzzy
+msgid "Team(s) page"
+msgstr "Equipo guardado"
+
+#: ../admin/class-football-pool-admin-options.php:145
+#, fuzzy
+msgid "Group(s) page"
+msgstr "Partidos de la pagina de grupos"
+
+#: ../admin/class-football-pool-admin-options.php:154
+#, fuzzy
+msgid "Venue(s) page"
+msgstr "Estadio guardado"
+
+#: ../admin/class-football-pool-admin-options.php:163
+#, fuzzy
+msgid "Rules page"
+msgstr "Seleccionar una página"
+
+#: ../admin/class-football-pool-admin-options.php:172
+#, fuzzy
+msgid "Submit predictions page"
+msgstr "ver pronosticos"
+
+#: ../admin/class-football-pool-admin-options.php:181
+#, fuzzy
+msgid "Ranking page"
+msgstr "Cambios en rankings"
+
+#: ../admin/class-football-pool-admin-options.php:190
+#, fuzzy
+msgid "Statistics page"
+msgstr "Estadisticas"
+
+#: ../admin/class-football-pool-admin-options.php:199
+#, fuzzy
+msgid "See a user's predictions page"
+msgstr "Ver los pronosticos de los otros usuarios"
+
+#: ../admin/class-football-pool-admin-options.php:208
+msgid "Page after login"
+msgstr ""
+
+#: ../admin/class-football-pool-admin-options.php:212
+msgid "You can set the page where users must be redirected to after login."
+msgstr ""
+
+#: ../admin/class-football-pool-admin-options.php:213
+#: ../admin/class-football-pool-admin-options.php:226
+msgid "Leave empty to use default behavior of WordPress."
+msgstr ""
+
+#: ../admin/class-football-pool-admin-options.php:214
+#: ../admin/class-football-pool-admin-options.php:226
+msgid "This setting only applies to non-admins."
+msgstr ""
+
+#: ../admin/class-football-pool-admin-options.php:221
+#, fuzzy
+msgid "Page after registration"
+msgstr "Enlace para registración"
+
+#: ../admin/class-football-pool-admin-options.php:225
+msgid ""
+"You can set the page where users must be redirected to after registration."
+msgstr ""
+
+#: ../admin/class-football-pool-admin-options.php:231
+msgid "Keep data on uninstall"
+msgstr "Mantener la informacion en la desinstalacion"
+
+#: ../admin/class-football-pool-admin-options.php:231
+msgid ""
+"If checked the options and pool data (teams, matches, predictions, etc.) are "
+"not removed when deactivating the plugin."
+msgstr ""
+"Si se selecciona, las opciones y los datos del torneo (los equipos, los "
+"partidos, las predicciones, etc) no se eliminan cuando se desactiva el "
+"plugin."
+
+#: ../admin/class-football-pool-admin-options.php:233
+#: ../assets/admin/tinymce/tinymce-dialog.php:594
+msgid "Joker multiplier"
+msgstr ""
+
+#: ../admin/class-football-pool-admin-options.php:233
+#, fuzzy
+msgid ""
+"Multiplier used for predictions with a joker set. The shortcode [fp-"
+"jokermultiplier] adds this value in the content. This value is also used for "
+"the calculations in the pool."
+msgstr ""
+"Los puntos que obtiene un usuario por pronosticar el resultado exacto de un "
+"partido. El shortcode [fp-fullpoints] agrega este valor al contenido. Este "
+"valor también es usado internamente para el calculo de puntos."
+
+#: ../admin/class-football-pool-admin-options.php:235
+msgid "Full score"
+msgstr "Puntos resultado"
+
+#: ../admin/class-football-pool-admin-options.php:235
+msgid ""
+"The points a user gets for getting the exact outcome of a match. The "
+"shortcode [fp-fullpoints] adds this value in the content. This value is also "
+"used for the calculations in the pool."
+msgstr ""
+"Los puntos que obtiene un usuario por pronosticar el resultado exacto de un "
+"partido. El shortcode [fp-fullpoints] agrega este valor al contenido. Este "
+"valor también es usado internamente para el calculo de puntos."
+
+#: ../admin/class-football-pool-admin-options.php:237
+msgid "Toto score"
+msgstr "Puntos L-V-E"
+
+#: ../admin/class-football-pool-admin-options.php:237
+msgid ""
+"The points a user gets for guessing the outcome of a match (win, loss or "
+"draw) without also getting the exact amount of goals. The shortcode [fp-"
+"totopoints] adds this value in the content. This value is also used in the "
+"calculations in the pool."
+msgstr ""
+"Son los puntos que obtiene un usuario por adivinar el ganador del partido "
+"(local o visitante) o empate sin tener en cuenta la cantidad de goles. El "
+"shortcode [fp-totopoints] agrega este valor en el contenido. Este valor es "
+"usado internamente para calcular los puntos"
+
+#: ../admin/class-football-pool-admin-options.php:239
+#: ../assets/admin/tinymce/tinymce-dialog.php:597
+msgid "Goal bonus"
+msgstr "Puntaje bonus por gol"
+
+#: ../admin/class-football-pool-admin-options.php:239
+msgid ""
+"Extra points a user gets for guessing the goals correct for one of the "
+"teams. These points are added to the toto points or full points. The "
+"shortcode [fp-goalpoints] adds this value in the content. This value is also "
+"used in the calculations in the pool."
+msgstr ""
+"Son los puntos extra que se obtienen por adivinar la cantidad de goles de "
+"uno de los equipos. Estos puntos se suman a los puntos L-V-E o al puntaje "
+"por resultado exacto. El shortcode [fp-goalpoints] agregan este valor al "
+"contenido. Este valor se usa ademas en los cálculos en el torneo."
+
+#: ../admin/class-football-pool-admin-options.php:241
+msgid "Goal difference bonus"
+msgstr "Puntaje bonus por diferencia de gol"
+
+#: ../admin/class-football-pool-admin-options.php:241
+msgid ""
+"Extra points a user gets for guessing the goal difference correct for a "
+"match. Only awarded in matches with a winning team and only on top of toto "
+"points. See the help page for more information. The shortcode [fp-"
+"diffpoints] adds this value in the content. This value is also used in the "
+"calculations in the pool."
+msgstr ""
+"Puntos extra que el usuario recibe por adivinar la diferencia de goles "
+"correcto para un partido. Sólo otorgado en los partidos con un equipo "
+"ganador y sólo en la parte superior de los puntos de L-V-E. Ver la página de "
+"ayuda para más información. Los shortcode [FP-diffpoints] agrega este valor "
+"en el contenido. Este valor también se utiliza en los cálculos en el Torneo."
+
+#: ../admin/class-football-pool-admin-options.php:245
+msgid "Prediction stop method for matches"
+msgstr "Forma de limitar nuevos pronósticos para los partidos"
+
+#: ../admin/class-football-pool-admin-options.php:248
+msgid "Dynamic time"
+msgstr "Tiempo dinamico"
+
+#: ../admin/class-football-pool-admin-options.php:249
+msgid "One stop date"
+msgstr "Fecha y hora especifica"
+
+#: ../admin/class-football-pool-admin-options.php:251
+#: ../admin/class-football-pool-admin-options.php:283
+msgid "Select which method to use for the prediction stop."
+msgstr "Selecciona el metido para evitar cambios en los pronósticos"
+
+#: ../admin/class-football-pool-admin-options.php:260
+msgid "Dynamic stop threshold (in seconds) for matches"
+msgstr "Tiempo limite (en segundos) para modificar pronosticos"
+
+#: ../admin/class-football-pool-admin-options.php:262
+msgid ""
+"A user may change his/her predictions untill this amount of time before game "
+"kickoff. The time is in seconds, e.g. 15 minutes is 900 seconds."
+msgstr ""
+"Un usuarios puede cambiar sus pronósticos hasta este tiempo antes del "
+"comienzo del partido. El tiempo esta expresado en segundos, por ejemplo 15 "
+"minutos son 900 segundos."
+
+#: ../admin/class-football-pool-admin-options.php:268
+msgid "Prediction stop date for matches"
+msgstr "Fecha limite de pronósticos para los partidos"
+
+#: ../admin/class-football-pool-admin-options.php:270
+msgid ""
+"If a valid date and time [Y-m-d H:i] is given here, then this date/time will "
+"be used as a single value before all predictions for the matches have to be "
+"entered by users. (your local time is:"
+msgstr ""
+"Si una fecha y hora valida [Y-m-d H:i] es ingresada, será la fecha y hora "
+"limite para hacer cambios en los pronósticos ingresados por los usuarios. "
+"(tu hora local es:"
+
+#: ../admin/class-football-pool-admin-options.php:277
+msgid "Use one prediction stop date for questions?"
+msgstr "Usar la hora de finalización de pronósticos para las preguntas?"
+
+#: ../admin/class-football-pool-admin-options.php:280
+msgid "No"
+msgstr "No"
+
+#: ../admin/class-football-pool-admin-options.php:281
+msgid "Yes"
+msgstr "Si"
+
+#: ../admin/class-football-pool-admin-options.php:292
+msgid "Prediction stop date for questions"
+msgstr "Fecha limite de pronósticos para las preguntas"
+
+#: ../admin/class-football-pool-admin-options.php:294
+msgid ""
+"If a valid date and time [Y-m-d H:i] is given here, then this date/time will "
+"be used as a single value before all predictions for the bonus questions "
+"have to be entered by users. (your local time is:"
+msgstr ""
+"Si una fecha y hora valida [Y-m-d H:i] es ingresada, será la fecha y hora "
+"limite para hacer cambios en las preguntas bonos ingresados por los "
+"usuarios. (tu hora local es:"
+
+#: ../admin/class-football-pool-admin-options.php:299
+msgid "Maximum length for a shoutbox message"
+msgstr "Maxima longitud para los mensajes de chat"
+
+#: ../admin/class-football-pool-admin-options.php:299
+msgid ""
+"Maximum length (number of characters) a message in the shoutbox may have."
+msgstr "Maxima longitud (en caracteres) que un mensaje de chat puede tener"
+
+#: ../admin/class-football-pool-admin-options.php:301
+msgid "Use leagues"
+msgstr "Usar ligas"
+
+#: ../admin/class-football-pool-admin-options.php:301
+msgid ""
+"Set this if you want to use leagues in your pool. You can use this (e.g.) "
+"for paying and non-paying users, or different departments. Important: if you "
+"change this value when there are already points given, then the scoretable "
+"will not be automatically recalculated. Use the recalculate button on this "
+"page for that."
+msgstr ""
+"Esta configuración permite habilitar ligas. Un ejemplo de uso podria ser "
+"para separar usuarios que juegan gratis y los que juegan con dinero o de "
+"diferentes areas. Importante: si modificas esto cuando usuarios ya tienen "
+"puntos asignados, los puntos no serán recalculados automaticamente. Usa el "
+"boton de recalcular en esta pagina."
+
+#: ../admin/class-football-pool-admin-options.php:305
+msgid "Standard league for new users"
+msgstr "Torneo por defecto para nuevos usuarios"
+
+#: ../admin/class-football-pool-admin-options.php:308
+#, fuzzy
+msgid "The standard league a new user will be placed after registration."
+msgstr ""
+"La liga estandar (<a href=\"?page=footballpool-leagues\">unir al ID de liga</"
+"a>) a la que se unira un usuario automaticamente luego de registrarse"
+
+#: ../admin/class-football-pool-admin-options.php:312
+msgid "Image for Dashboard Widget"
+msgstr "Imagen para el escritorio del widget"
+
+#: ../admin/class-football-pool-admin-options.php:314
+msgid "Hide Admin Bar for subscribers"
+msgstr "Ocultar la barra admin para los colaboradores"
+
+#: ../admin/class-football-pool-admin-options.php:314
+msgid ""
+"After logging in a subscriber may see an Admin Bar on top of your blog (a "
+"user option). With this plugin option you can ignore the user configuration "
+"and never show the Admin Bar."
+msgstr ""
+"Después de iniciar sesion los usuarios ven la barra de administracion en la "
+"parte superior de tu sitio. Con esta opcion puedes evitar esto."
+
+#: ../admin/class-football-pool-admin-options.php:316
+msgid "Use favicon"
+msgstr "Usar favicon"
+
+#: ../admin/class-football-pool-admin-options.php:316
+#: ../admin/class-football-pool-admin-options.php:318
+msgid "Switch off if you don't want to use the icons in the plugin."
+msgstr "Desactivar si no queres utilizar los iconos en el plugin"
+
+#: ../admin/class-football-pool-admin-options.php:318
+msgid "Use Apple touch icon"
+msgstr "Usar icon Apple touch"
+
+#: ../admin/class-football-pool-admin-options.php:320
+msgid "Show team names as links"
+msgstr "Mostrar los nombres de equipos como links"
+
+#: ../admin/class-football-pool-admin-options.php:320
+msgid ""
+"Switch off if you don't want to link the team names to a team info page."
+msgstr ""
+"Desactivar si no quieres vincular los nombres de los equipos con su pagina "
+"de información"
+
+#: ../admin/class-football-pool-admin-options.php:326
+msgid "Show venues on team page"
+msgstr "Mostrar los estadios en las paginas de equipos"
+
+#: ../admin/class-football-pool-admin-options.php:326
+msgid ""
+"Switch off if you don't want to show all venues a team plays in during a "
+"season or tournament (in national competitions the venue list is a bit "
+"useless)."
+msgstr ""
+"Desactivar si no se desea mostrar todos los estadios que un equipo juega "
+"durante un torneo o liga"
+
+#: ../admin/class-football-pool-admin-options.php:330
+msgid "Use charts"
+msgstr "Usar gráficos"
+
+#: ../admin/class-football-pool-admin-options.php:333
+#, php-format
+msgid ""
+"The Highcharts API is needed for this feature. See the <%s>Help page<%s> for "
+"information on installing this library."
+msgstr ""
+"El componente es necesario para activar seta caracteristica. Revisa la <"
+"%s>ayuda<%s> para mas informacion de como instalar esta libreria"
+
+#: ../admin/class-football-pool-admin-options.php:340
+msgid "Format for the csv export (match schedule)"
+msgstr "Formato para la exportación de CSV (programación de partidos)"
+
+#: ../admin/class-football-pool-admin-options.php:343
+msgid "Full data"
+msgstr "Datos completos"
+
+#: ../admin/class-football-pool-admin-options.php:344
+msgid "Minimal data"
+msgstr "Datos basicos"
+
+#: ../admin/class-football-pool-admin-options.php:346
+#, php-format
+msgid ""
+"Select the format of the csv export. See the <%s>Help page<%s> for more "
+"information."
+msgstr ""
+"Selecciona el formato de la exportación CSV. Revisa la <%s>ayuda<%s> para "
+"mas información"
+
+#: ../admin/class-football-pool-admin-options.php:351
+msgid "Match time setting"
+msgstr "Configuracion del horario del partido"
+
+#: ../admin/class-football-pool-admin-options.php:354
+msgid "Use WordPress Timezone setting"
+msgstr "Usar la configuracion de hora de WordPress"
+
+#: ../admin/class-football-pool-admin-options.php:355
+msgid "Use UTC time"
+msgstr "Usar la hora UTC"
+
+#: ../admin/class-football-pool-admin-options.php:356
+#: ../admin/class-football-pool-admin-options.php:413
+msgid "Custom setting"
+msgstr "Configuracion personalizada"
+
+#: ../admin/class-football-pool-admin-options.php:358
+msgid "Select which method to use for the display of match times."
+msgstr "Seleccionar la forma en la que se muestra la hora de los partidos"
+
+#: ../admin/class-football-pool-admin-options.php:368
+msgid "Match time offset"
+msgstr "Diferencia horaria de los partidos"
+
+#: ../admin/class-football-pool-admin-options.php:371
+msgid ""
+"The offset in hours to add to (or extract from) the UTC start time of a "
+"match. Only used for display of the time."
+msgstr ""
+"La diferencia en horas para agregar (o restar) al horario UTC del inicio de "
+"los partidos. Solo utilizado para mostrar la hora"
+
+#: ../admin/class-football-pool-admin-options.php:376
+msgid "Use shortcode button in visual editor"
+msgstr "Usar el botón de shortcode en el editor visual"
+
+#: ../admin/class-football-pool-admin-options.php:376
+msgid ""
+"The plugin can add a button to the visual editor of WordPress. With this "
+"option disabled this button will not be included (uncheck if the button is "
+"causing problems)."
+msgstr ""
+"El plugin puede agregar un botón al editor visual de WordPress. Con esta "
+"opción deshabilitada este botón no será incluido (desactivar si el botón "
+"esta causando problemas)"
+
+#: ../admin/class-football-pool-admin-options.php:378
+msgid "Always show predictions"
+msgstr "Mostrar siempre los pronósticos"
+
+#: ../admin/class-football-pool-admin-options.php:378
+msgid ""
+"Normally match predictions are only shown to other players after a "
+"prediction can't be changed anymore. With this option enabled the "
+"predictions are visible to anyone, anytime. Works only for matches, not "
+"bonus questions."
+msgstr ""
+"Generalmente los pronósticos de los partidos solo se muestras al resto de "
+"jugadores cuando ya no es posible hacerle modificaciones. Con esta opción "
+"habilitada los pronósticos estarán visibles a todos en cualquier momento. "
+"Funciona solo para los partidos, no para las preguntas bonus."
+
+#: ../admin/class-football-pool-admin-options.php:380
+msgid "Use HTML5 number inputs"
+msgstr "Usar ingreso de numeros con HTML5"
+
+#: ../admin/class-football-pool-admin-options.php:380
+msgid ""
+"Make use of HTML5 number inputs for the prediction form. Some browsers "
+"display these as spin controls."
+msgstr ""
+"Utilizar ingreso de números mediante HTML5 en el formulario de pronósticos. "
+"Algunos navegadores muestras estos campos como controles desplegables."
+
+#: ../admin/class-football-pool-admin-options.php:384
+msgid "Groups page matches"
+msgstr "Partidos de la pagina de grupos"
+
+#: ../admin/class-football-pool-admin-options.php:387
+#, php-format
+msgid ""
+"The Groups page shows standings for the matches in these match types. "
+"Defaults to match type id: %d."
+msgstr ""
+"La página de Grupos  muestra la clasificación para los partidos en esas "
+"fechas o rondas. Por defecto el id es: %d."
+
+#: ../admin/class-football-pool-admin-options.php:387
+#: ../assets/admin/tinymce/tinymce-dialog.php:364
+#: ../assets/admin/tinymce/tinymce-dialog.php:407
+msgid "Use CTRL+click to select multiple values."
+msgstr "Usar CTRL+clic para seleccionar múltiples valores."
+
+#: ../admin/class-football-pool-admin-options.php:393
+msgid "Match sorting"
+msgstr "Orden de partidos"
+
+# Standing
+#: ../admin/class-football-pool-admin-options.php:396
+msgid "Date ascending"
+msgstr "Fecha ascendente"
+
+#: ../admin/class-football-pool-admin-options.php:397
+msgid "Date descending"
+msgstr "Fecha descendiente"
+
+#: ../admin/class-football-pool-admin-options.php:398
+msgid "Match types descending, matches date ascending"
+msgstr "Grupos o rondas descendente, Grupos o rondas ascendente"
+
+#: ../admin/class-football-pool-admin-options.php:399
+msgid "Match types ascending, matches date descending"
+msgstr "Grupos o rondas ascendente, Grupos o rondas descendente"
+
+#: ../admin/class-football-pool-admin-options.php:401
+msgid ""
+"Select the order in which matches must be displayed on the matches page and "
+"the prediction page.."
+msgstr ""
+"Seleccionar el orden en que se mostrarán los partidos en la página de "
+"partidos y en la página de pronósticos.."
+
+#: ../admin/class-football-pool-admin-options.php:404
+msgid "Automatic calculation"
+msgstr "Cálculo automatico"
+
+#: ../admin/class-football-pool-admin-options.php:404
+msgid ""
+"By default the rankings are automatically (re)calculated in the admin. "
+"Change this setting if you want to (temporarily) disable this behaviour."
+msgstr ""
+"Por defecto los rankings son automáticamente (re)calculados en la página de "
+"admin. Cambiar este valor si se quiere deshabilitar (temporalmente) esta "
+"función."
+
+#: ../admin/class-football-pool-admin-options.php:408
+msgid "Ranking to show"
+msgstr "Ranking a mostrar"
+
+#: ../admin/class-football-pool-admin-options.php:411
+msgid "Default ranking"
+msgstr "Ranking por default"
+
+#: ../admin/class-football-pool-admin-options.php:412
+msgid "Let the user decide"
+msgstr "Permitir decidir al usuario"
+
+#: ../admin/class-football-pool-admin-options.php:415
+msgid ""
+"The ranking page and charts page can show different rankings. Use this "
+"setting to decide which ranking to show."
+msgstr ""
+"La página de ranking y estadísticas puede mostrar diferentes rankings. Usar "
+"este opción para decidir que ranking mostrar."
+
+#: ../admin/class-football-pool-admin-options.php:425
+#: ../pages/class-football-pool-ranking-page.php:44
+#: ../pages/class-football-pool-statistics-page.php:109
+msgid "Choose ranking"
+msgstr "Elegir ranking"
+
+#: ../admin/class-football-pool-admin-options.php:428
+msgid ""
+"Choose the ranking you want to use on the ranking page and the charts page."
+msgstr ""
+"Elegir el ranking que se quiere usar en la pagina de ranking y en la de "
+"estadísticas."
+
+#: ../admin/class-football-pool-admin-options.php:457
+msgid "Points for win"
+msgstr "Puntos por ganar"
+
+#: ../admin/class-football-pool-admin-options.php:457
+msgid "The points a team gets for a win."
+msgstr "Los puntos que un equipo consigue por una victoria."
+
+#: ../admin/class-football-pool-admin-options.php:459
+msgid "Points for draw"
+msgstr "Puntos por empate"
+
+#: ../admin/class-football-pool-admin-options.php:459
+msgid "The points a team gets for a draw."
+msgstr "Los puntos que un equipo consigue por un empate."
+
+#: ../admin/class-football-pool-admin-options.php:461
+msgid "Show photo in team listing"
+msgstr "Ver foto en la lista de equipos"
+
+#: ../admin/class-football-pool-admin-options.php:461
+msgid "Show the team's photo on the team listing page (if available)."
+msgstr ""
+"Mostrar la foto del equipo en la página de equipos (si está disponible)."
+
+#: ../admin/class-football-pool-admin-options.php:463
+msgid "Show photo in venue listing"
+msgstr "Ver foto en la lista de estadios"
+
+#: ../admin/class-football-pool-admin-options.php:463
+msgid "Show the venue's photo on the team listing page (if available)."
+msgstr "Ver la foto del estadio en la página de equipos (si está disponible)."
+
+#: ../admin/class-football-pool-admin-options.php:465
+msgid "Show comments in team listing"
+msgstr "Ver comentarios en el listado de equipos"
+
+#: ../admin/class-football-pool-admin-options.php:465
+msgid "Show the team's comments on the team listing page (if available)."
+msgstr ""
+"Mostrar los comentarios del equipo en la página de equipos (si está "
+"disponible)."
+
+#: ../admin/class-football-pool-admin-options.php:467
+msgid "Show comments in venue listing"
+msgstr "Ver comentarios en la lista de estadios"
+
+#: ../admin/class-football-pool-admin-options.php:467
+msgid "Show the venue's comments on the team listing page (if available)."
+msgstr ""
+"Mostrar los comentarios del estadio en la página de equipos (si está "
+"disponible)."
+
+#: ../admin/class-football-pool-admin-options.php:471
+msgid "Enable jokers?"
+msgstr "Habilitar comodines?"
+
+#: ../admin/class-football-pool-admin-options.php:471
+msgid ""
+"When checked the joker is enabled and users can add the joker to one "
+"prediction to multiply the score."
+msgstr ""
+"Cuando se activa el comodín está habilitado y los usuarios pueden añadir el "
+"comodín a un pronostico para duplicar la puntuación de ese partido."
+
+#: ../admin/class-football-pool-admin-options.php:475
+msgid ""
+"If you want to support this plugin, you can buy me an espresso (doppio "
+"please ;))"
+msgstr ""
+"Si queres ayudar a mantener y mejorar este plugin, podes comprarme una "
+"cafetera expresso (si es Doppio mejor!)  ;)"
+
+#: ../admin/class-football-pool-admin-options.php:478
+msgid "Option categories"
+msgstr ""
+
+#: ../admin/class-football-pool-admin-options.php:479
+#: ../admin/class-football-pool-admin.php:87
+msgid "Plugin Options"
+msgstr "Opciones del plugin"
+
+#: ../admin/class-football-pool-admin-options.php:496
+#: ../admin/class-football-pool-admin.php:1061
+#: ../admin/class-football-pool-admin.php:1067
+msgid "Recalculate Scores"
+msgstr "Recalcular puntajes"
+
+#: ../admin/class-football-pool-admin-options.php:526
+#: ../admin/class-football-pool-admin-teams-position.php:14
+#: ../admin/class-football-pool-admin-users.php:79
+#: ../admin/class-football-pool-admin-users.php:89
+#: ../classes/class-football-pool-pool.php:1023
+msgid "Changes saved."
+msgstr "Los cambios fueron guardados"
+
+#: ../admin/class-football-pool-admin-options.php:531
+#: ../classes/class-football-pool.php:626
+#, php-format
+msgid ""
+"Charts are enabled but Highcharts API was not found! See <a href=\"%s\">Help "
+"page</a> for details."
+msgstr ""
+"Los graficos están habilitados pero no puede localizarse el API necesaria! "
+"Leer la<a href=\"%s\">ayuda</a> para detalles."
+
+#: ../admin/class-football-pool-admin-options.php:534
+msgid ""
+"If values in the fields marked with an asterisk are left empty, then the "
+"plugin will default to the initial values."
+msgstr ""
+"Si los valores quedaron vacios en los cambios obligatorios (asteriscos), el "
+"plugin usara los valores por default"
+
+#: ../admin/class-football-pool-admin-options.php:538
+#, fuzzy
+msgid "Scoring Options"
+msgstr "Opciones del ranking"
+
+#: ../admin/class-football-pool-admin-options.php:553
+msgid "Ranking Options"
+msgstr "Opciones del ranking"
+
+#: ../admin/class-football-pool-admin-options.php:566
+msgid "Prediction Options"
+msgstr "Opciones de pronosticos"
+
+#: ../admin/class-football-pool-admin-options.php:585
+msgid "League Options"
+msgstr "Opciones de Liga"
+
+#: ../admin/class-football-pool-admin-options.php:597
+msgid "Pool Layout Options"
+msgstr "Opciones del plugin"
+
+#: ../admin/class-football-pool-admin-options.php:615
+msgid "Groups Page Options"
+msgstr "Pagina de opciones de grupos"
+
+#: ../admin/class-football-pool-admin-options.php:625
+msgid "Other Options"
+msgstr "Otras opciones"
+
+#: ../admin/class-football-pool-admin-options.php:643
+#, fuzzy
+msgid "Plugin pages"
+msgstr "Pagina de opciones del plugin"
+
+#: ../admin/class-football-pool-admin-rankings.php:10
+msgid ""
+"<p>On this page you can add, change or delete custom rankings.</p><p>A "
+"ranking is calculated for the total points scored for the matches and/or "
+"bonus questions in the ranking. Change the matches and bonus questions for a "
+"ranking via the <em>'Ranking composition'</em> link beneath the ranking name."
+"</p>"
+msgstr ""
+"<p> En esta página usted puede añadir, cambiar o eliminar un ranking "
+"personalizado.</p><p>Un ranking se calcula por el total de puntos obtenidos "
+"por los partidos y/o preguntas bonus en el ranking. Cambie los partidos y "
+"las preguntas bonus para un ranking a través del link <em> 'composición del "
+"ranking' </ em> situado bajo el nombre del ranking. </p>"
+
+#: ../admin/class-football-pool-admin-rankings.php:14
+#, fuzzy
+msgid "Exclude from recalculation"
+msgstr "Cálculo de la puntuación"
+
+#: ../admin/class-football-pool-admin-rankings.php:15
+msgid ""
+"<p>If you don't want a ranking to be recalculated everytime a score "
+"calculation is done, you can set the  <em>calculate</em> option for the "
+"ranking to \"no\". Rankings with this option set to \"no\" will only be "
+"recalculated with a single calculation in the Ranking overview screen or in "
+"a full recalculation.</p>"
+msgstr ""
+
+#: ../admin/class-football-pool-admin-rankings.php:26
+msgid "User defined rankings"
+msgstr "Usar rankings definidos"
+
+#: ../admin/class-football-pool-admin-rankings.php:53
+msgid "Ranking saved."
+msgstr "Rankings guardados"
+
+#: ../admin/class-football-pool-admin-rankings.php:60
+#: ../admin/class-football-pool-admin-rankings.php:265
+msgid "Save & Define"
+msgstr "Guardar y definir"
+
+#: ../admin/class-football-pool-admin-rankings.php:71
+#, php-format
+msgid "Ranking id:%s deleted."
+msgstr "Ranking id:%s eliminado"
+
+#: ../admin/class-football-pool-admin-rankings.php:75
+#, php-format
+msgid "%s rankings deleted."
+msgstr "%s rankings eliminados"
+
+#: ../admin/class-football-pool-admin-rankings.php:88
+msgid "Definition of"
+msgstr "Definición de"
+
+#: ../admin/class-football-pool-admin-rankings.php:90
+#: ../classes/class-football-pool-groups.php:325
+#: ../classes/class-football-pool.php:3
+#: ../pages/class-football-pool-pool-page.php:56
+#: ../pages/class-football-pool-stadiums-page.php:25
+#: ../pages/class-football-pool-teams-page.php:58
+msgid "matches"
+msgstr "Partidos"
+
+#: ../admin/class-football-pool-admin-rankings.php:93
+#: ../pages/class-football-pool-pool-page.php:64
+#: ../pages/class-football-pool-user-page.php:53
+msgid "bonus questions"
+msgstr "preguntas bonus"
+
+#: ../admin/class-football-pool-admin-rankings.php:105
+msgid "Not a valid ranking."
+msgstr "No es un ranking válido."
+
+#: ../admin/class-football-pool-admin-rankings.php:134
+msgid "no questions found"
+msgstr "no se encontraron preguntas"
+
+#: ../admin/class-football-pool-admin-rankings.php:183
+msgid "no matches found"
+msgstr "no se encontraron partidos"
+
+#: ../admin/class-football-pool-admin-rankings.php:302
+#: ../classes/class-football-pool.php:9
+msgid "ranking"
+msgstr "ranking"
+
+#: ../admin/class-football-pool-admin-rankings.php:313
+msgid "You are about to delete one or more rankings."
+msgstr "Estas a punto de eliminar uno o mas rankings"
+
+#: ../admin/class-football-pool-admin-rankings.php:314
+msgid "Ranking composition"
+msgstr "Composición del ranking"
+
+#: ../admin/class-football-pool-admin-score-calculation.php:85
+#, fuzzy
+msgid "Score and ranking calculation"
+msgstr "Cálculo de la puntuación"
+
+#: ../admin/class-football-pool-admin-score-calculation.php:92
+#, fuzzy
+msgid "Preparing the calculation"
+msgstr "Cálculo inteligente"
+
+#: ../admin/class-football-pool-admin-score-calculation.php:157
+msgid "Please do not interrupt this process."
+msgstr "Por favor no interrumpir este proceso"
+
+#: ../admin/class-football-pool-admin-score-calculation.php:159
+msgid "Sit back and relax, this may take a while :-)"
+msgstr "Sientese y relajese, esto puede llevar un tiempo :-)"
+
+#: ../admin/class-football-pool-admin-score-calculation.php:168
+#: ../admin/class-football-pool-admin-score-calculation.php:181
+#, php-format
+msgid "Updating match scores (step %s of %s)"
+msgstr ""
+
+#: ../admin/class-football-pool-admin-score-calculation.php:171
+#, fuzzy
+msgid "No matches to calculate."
+msgstr "Sin informacion del partido"
+
+#: ../admin/class-football-pool-admin-score-calculation.php:261
+#: ../admin/class-football-pool-admin-score-calculation.php:273
+#, php-format
+msgid "Updating question scores (step %s of %s)"
+msgstr ""
+
+#: ../admin/class-football-pool-admin-score-calculation.php:264
+#, fuzzy
+msgid "No questions to calculate."
+msgstr "%s preguntas eliminadas"
+
+#: ../admin/class-football-pool-admin-score-calculation.php:332
+#: ../admin/class-football-pool-admin-score-calculation.php:340
+#, php-format
+msgid "Updating total scores (step %s of %s)"
+msgstr ""
+
+#: ../admin/class-football-pool-admin-score-calculation.php:391
+#: ../admin/class-football-pool-admin-score-calculation.php:399
+#, php-format
+msgid "Calculating the user rankings (step %s of %s)."
+msgstr ""
+
+#: ../admin/class-football-pool-admin-score-calculation.php:481
+msgid "Activating new ranking and clean-up."
+msgstr ""
+
+#: ../admin/class-football-pool-admin-score-calculation.php:487
+msgid "Calculation completed. Thanks for your patience."
+msgstr ""
+
+#: ../admin/class-football-pool-admin-score-calculation.php:507
+msgid ""
+"No matches or questions to calculate, or no users in the pool. Ranking "
+"cleared."
+msgstr ""
+
+#: ../admin/class-football-pool-admin-score-calculation.php:550
+msgid "Step"
+msgstr "Paso"
+
+#: ../admin/class-football-pool-admin-score-calculation.php:552
+#: ../classes/class-football-pool.php:395
+msgid ""
+"Something went wrong while (re)calculating the scores. See the <a href=\"?"
+"page=footballpool-help#ranking-calculation\">help page</a> for details on "
+"solving this problem."
+msgstr ""
+
+#: ../admin/class-football-pool-admin-score-calculation.php:587
+msgid "OK"
+msgstr ""
+
+#: ../admin/class-football-pool-admin-shoutbox.php:10
+msgid ""
+"<p>On this page you can add, change or delete shoutbox messages. Shoutbox "
+"messages are displayed in the plugin's Shoutbox widget.</p>"
+msgstr ""
+"<p>En esta página usted puede añadir, cambiar o borrar mensajes de chat. Los "
+"mensajes de chat se muestran en el widget del plugin de chat. </p>"
+
+#: ../admin/class-football-pool-admin-shoutbox.php:19
+#: ../admin/class-football-pool-admin.php:135
+msgid "Shoutbox"
+msgstr "Chat"
+
+#: ../admin/class-football-pool-admin-shoutbox.php:33
+msgid "Message saved."
+msgstr "Mensaje guardado"
+
+#: ../admin/class-football-pool-admin-shoutbox.php:45
+#, php-format
+msgid "Message id:%s deleted."
+msgstr "Mensaje id:%s eliminado"
+
+#: ../admin/class-football-pool-admin-shoutbox.php:49
+#, php-format
+msgid "%s messages deleted."
+msgstr "%s mensajes eliminados"
+
+#: ../admin/class-football-pool-admin-shoutbox.php:64
+#: ../assets/admin/tinymce/tinymce-dialog.php:201
+#: ../assets/admin/tinymce/tinymce-dialog.php:289
+#: ../assets/admin/tinymce/tinymce-dialog.php:343
+#: ../assets/admin/tinymce/tinymce-dialog.php:478
+msgid "now"
+msgstr "ahora"
+
+#: ../admin/class-football-pool-admin-shoutbox.php:74
+#: ../admin/class-football-pool-admin-shoutbox.php:98
+msgid "message"
+msgstr "mensaje"
+
+#: ../admin/class-football-pool-admin-shoutbox.php:75
+#: ../admin/class-football-pool-admin-shoutbox.php:99
+msgid "time"
+msgstr "tiempo"
+
+#: ../admin/class-football-pool-admin-shoutbox.php:112
+msgid "You are about to delete one or more shoutbox messages."
+msgstr "Estas a punto de eliminar una o mas mensajes de chat"
+
+#: ../admin/class-football-pool-admin-stadiums.php:10
+msgid "<p>On this page you can add, change or delete venues.</p>"
+msgstr ""
+"<p> En esta página usted puede añadir, cambiar o eliminar estadios. </p>"
+
+#: ../admin/class-football-pool-admin-stadiums.php:19
+#: ../admin/class-football-pool-admin.php:162
+msgid "Venues"
+msgstr "Estadios"
+
+#: ../admin/class-football-pool-admin-stadiums.php:33
+msgid "Venue saved."
+msgstr "Estadio guardado"
+
+#: ../admin/class-football-pool-admin-stadiums.php:45
+#, php-format
+msgid "Venue id:%s deleted."
+msgstr "Estadio id:%s eliminado"
+
+#: ../admin/class-football-pool-admin-stadiums.php:49
+#, php-format
+msgid "%s venues deleted."
+msgstr "%s estadios eliminados"
+
+#: ../admin/class-football-pool-admin-stadiums.php:71
+#: ../admin/class-football-pool-admin-stadiums.php:121
+#: ../admin/class-football-pool-admin-teams.php:118
+#: ../pages/class-football-pool-teams-page.php:50
+msgid "photo"
+msgstr "foto"
+
+#: ../admin/class-football-pool-admin-stadiums.php:72
+#: ../admin/class-football-pool-admin-teams.php:121
+msgid "comments"
+msgstr "comentarios"
+
+#: ../admin/class-football-pool-admin-stadiums.php:72
+msgid ""
+"An optional text with extra information about the venue that is displayed on "
+"the venue's page."
+msgstr ""
+"Texto opcional con información adicional sobre el estadio que es mostrada en "
+"la pagina del estadio"
+
+#: ../admin/class-football-pool-admin-stadiums.php:120
+msgid "venue"
+msgstr "estadio"
+
+#: ../admin/class-football-pool-admin-stadiums.php:122
+msgid "venue nr"
+msgstr "estadio numero"
+
+#: ../admin/class-football-pool-admin-stadiums.php:135
+msgid "You are about to delete one or more venues."
+msgstr "Estas a punto de eliminar uno o mas estadios"
+
+#: ../admin/class-football-pool-admin-teams-position.php:6
+#: ../admin/class-football-pool-admin-teams.php:24
+#: ../admin/class-football-pool-admin.php:144
+msgid "Teams"
+msgstr "Equipos"
+
+#: ../admin/class-football-pool-admin-teams-position.php:17
+msgid ""
+"The first column contains a value that can be used for the ranking of teams "
+"in a group (Group Stage). In most cases the plugin will calculate this "
+"position automatically based on the results in the tournament. If two teams "
+"end up on the same position, even after considering all the tournament, then "
+"extra data is needed. Data this plugin doesn't have. You can manually tweak "
+"the last sort parameter here."
+msgstr ""
+"La primer columna contiene un valor que puede ser usado para ordenar los "
+"equipos en un grupo (en ligas con grupos). En la mayoría de los casos la "
+"posición se calcula automáticamente en base a los resultados. Si dos equipos "
+"finalizan en la misma posición, incluso considerando todo el torneo, "
+"entonces se necesita información extra. Informacion que este plugin no "
+"tiene. Podes ordenar manualmente utilizando este parámetro"
+
+#: ../admin/class-football-pool-admin-teams-position.php:18
+msgid "The start value is the position at the start of the tournament."
+msgstr "El valor de inicio es la posición al comienzo del torneo"
+
+#: ../admin/class-football-pool-admin-teams.php:10
+msgid ""
+"<p>On this page you can add, change or delete teams.</p><p>Only "
+"<em>'Active'</em> teams are shown on the teams page in the blog. The "
+"<em>'real'</em> column indicates if the team is a real team in the "
+"tournament or a temporary placeholder for a match that is not yet set (e.g. "
+"Winner Group A).</p>"
+msgstr ""
+"<p> En esta página usted puede añadir, cambiar o eliminar equipos.</"
+"p><p>Sólo los equipos <em>'activos'</em> se muestran en la página de equipos "
+"en el blog. La columna <em> 'real' </em> indica si el equipo es verdadero en "
+"el torneo o es un marcador de posición temporal para un partido que aún no "
+"se establece (por ejemplo Ganador de grupo A). </p>"
+
+#: ../admin/class-football-pool-admin-teams.php:14
+msgid "Team details"
+msgstr "Detalles del equipo"
+
+#: ../admin/class-football-pool-admin-teams.php:15
+msgid ""
+"<ul><li><em>photo</em> is used on the team page.</li><li><em>flag</em> is "
+"used in the standing table and the match overview.</li><li>If <em>link</em> "
+"is filled the team name on the team's page will link to this address.</"
+"li><li>The <em>comments</em> field can be used to add some extra info about "
+"the team. The info is shown on the team's page.</li></ul>"
+msgstr ""
+"<ul><li><em>Foto</ em> se utiliza en la página del equipo.</"
+"li><li><em>Escudo</em>se utiliza en la tabla y el resumen del partido.</"
+"li><li>Si el<em>link</em> se llena el nombre del equipo en la página del "
+"equipo se vinculara a esta dirección. </li><li>Los campos de "
+"<em>comentarios</em> se pueden utilizar para agregar algo de información "
+"adicional sobre el equipo. La información se muestra en la página del equipo."
+"</li></ul>"
+
+#: ../admin/class-football-pool-admin-teams.php:25
+msgid "Add, change or delete teams."
+msgstr "Agregar, cambiar o eliminar equipos"
+
+#: ../admin/class-football-pool-admin-teams.php:26
+msgid ""
+"If you delete a team all matches for the team and predictions for those "
+"matches are also deleted. After a delete action the scores in the pool are "
+"recalculated."
+msgstr ""
+"Si eliminas un equipo, todos los partidos y pronósticos para esos partidos "
+"seran eliminados también. Luego de eso, los puntales seran recalcados"
+
+#: ../admin/class-football-pool-admin-teams.php:42
+#, php-format
+msgid "Team %d activated."
+msgstr "Equipo %d activado"
+
+#: ../admin/class-football-pool-admin-teams.php:44
+#, php-format
+msgid "Team %d deactivated."
+msgstr "Equipo %d desactivado"
+
+#: ../admin/class-football-pool-admin-teams.php:51
+#, php-format
+msgid "%d teams activated."
+msgstr "%d equipos activados"
+
+#: ../admin/class-football-pool-admin-teams.php:53
+#, php-format
+msgid "%d teams deactivated."
+msgstr "%d equipos desactivados"
+
+#: ../admin/class-football-pool-admin-teams.php:65
+msgid "Team saved."
+msgstr "Equipo guardado"
+
+#: ../admin/class-football-pool-admin-teams.php:77
+#, php-format
+msgid "Team id:%s deleted."
+msgstr "Equipo id:%s eliminado"
+
+#: ../admin/class-football-pool-admin-teams.php:81
+#, php-format
+msgid "%s teams deleted."
+msgstr "%s equipos eliminados"
+
+#: ../admin/class-football-pool-admin-teams.php:118
+#: ../admin/class-football-pool-admin-teams.php:119
+#, php-format
+msgid ""
+"Image path must be a full URL to the image. Or a path relative to %s in the "
+"plugin directory"
+msgstr ""
+"La ruta debera ser la URL completa a la imagen. Tambien puede ser la ruta "
+"relativa a directorio %s del plugin"
+
+#: ../admin/class-football-pool-admin-teams.php:119
+msgid "flag"
+msgstr "Bandera"
+
+#: ../admin/class-football-pool-admin-teams.php:120
+msgid "link"
+msgstr "Link"
+
+#: ../admin/class-football-pool-admin-teams.php:120
+msgid ""
+"A link to a website with information about the team. Used on the team page "
+"in de plugin."
+msgstr "Link a la pagina con la información acerca del equipo."
+
+#: ../admin/class-football-pool-admin-teams.php:121
+msgid ""
+"An optional text with extra information about the team that is displayed on "
+"the team's page."
+msgstr ""
+"Texto opcional con información adicional sobre el equipo que es mostrada en "
+"la pagina del equipo"
+
+#: ../admin/class-football-pool-admin-teams.php:123
+msgid "group order"
+msgstr "Orden de fecha o ronda"
+
+#: ../admin/class-football-pool-admin-teams.php:123
+msgid ""
+"If teams are placed in a group and the default ordering does not work (when "
+"teams have the same points) you can fix the ordering with this number."
+msgstr ""
+"Si un equipo es ubicado en un grupo y el ordenamiento no funciona (cuando "
+"los equipos tienen la misma cantidad de puntos) podes ordenarlos con este "
+"valor"
+
+#: ../admin/class-football-pool-admin-teams.php:124
+msgid "team is not a temporary team name"
+msgstr "El nombre del equipo no corresponde a un equipo temporal"
+
+#: ../admin/class-football-pool-admin-teams.php:124
+msgid ""
+"Uncheck this box if the team is not a real team, e.g. \"Winner match 30\"."
+msgstr ""
+"Desmarque esta casilla si el equipo no es un equipo de verdad, por ejemplo, "
+"\"Ganador partido 30\"."
+
+#: ../admin/class-football-pool-admin-teams.php:125
+msgid "team is active"
+msgstr "El equipo esta activo"
+
+#: ../admin/class-football-pool-admin-teams.php:141
+msgid "team"
+msgstr "Equipo"
+
+#: ../admin/class-football-pool-admin-teams.php:142
+msgid "active"
+msgstr "Activo"
+
+#: ../admin/class-football-pool-admin-teams.php:143
+msgid "real team"
+msgstr "equipo real"
+
+#: ../admin/class-football-pool-admin-teams.php:156
+msgid "Activate team(s)"
+msgstr "Activar equipo(s)"
+
+#: ../admin/class-football-pool-admin-teams.php:156
+msgid "You are about to activate one or more teams."
+msgstr "Estas a punto de activar uno o mas equipos"
+
+#: ../admin/class-football-pool-admin-teams.php:157
+msgid "Deactivate team(s)"
+msgstr "Desactivar equipo(s)"
+
+#: ../admin/class-football-pool-admin-teams.php:157
+msgid "You are about to deactivate one or more teams."
+msgstr "Estas a punto de desactivar uno o mas equipos"
+
+#: ../admin/class-football-pool-admin-teams.php:158
+msgid "You are about to delete one or more teams."
+msgstr "Estas a punto de eliminar uno o mas equipos"
+
+#: ../admin/class-football-pool-admin-users.php:13
+msgid ""
+"<p>On this page you can add or remove users from the pool.</p><p>Use the "
+"bulk actions to add or remove more players at once.</p>"
+msgstr ""
+"<p>En esta página usted puede agregar o quitar usuarios del torneo.</"
+"p><p>Utilice las acciones masivas para añadir o eliminar más jugadores a la "
+"vez. </p>"
+
+#: ../admin/class-football-pool-admin-users.php:18
+msgid ""
+"<p>The plugin can use leagues (a league is a group of players in your pool) "
+"to group players together. If you are using leagues in the pool an admin has "
+"to acknowledge the league for which a player subscribed.</p><p>The "
+"<em>'plays in league'</em> column shows the league where the user is "
+"currently added to; you may change that value. The column <em>'registered "
+"for league'</em> shows the league the user wants to play in (the user chose "
+"this value upon subscribing for the pool).</p>"
+msgstr ""
+"<p>El plugin puede utilizar ligas (una liga es un grupo de jugadores en su "
+"torneo) para agrupar a los jugadores. Si está utilizando ligas en el torneo "
+"un administrador tiene que conocer la liga a la que un jugador se ha "
+"suscrito.</p><p>La columna<em>'juega en la liga'</em>muestra la liga donde "
+"el usuario se encuentra actualmente añadido, usted puede cambiar ese valor. "
+"La columna <em>'registrado en la liga'</em> muestra la liga en la que el "
+"usuario quiere jugar (el usuario escogió este valor durante el proceso de "
+"registracion).</p>"
+
+#: ../admin/class-football-pool-admin-users.php:22
+msgid "Other options"
+msgstr "Otras opciones"
+
+#: ../admin/class-football-pool-admin-users.php:23
+msgid ""
+"<p>The <em>'payed?'</em> option has no function in the pool, but can be a "
+"help for the admin to remember which of the players have payed if you are "
+"using a fee for competing in the pool.</p>"
+msgstr ""
+"<p>La opcion <em>'pagó?'</em> no tiene ninguna función en el torneo, pero "
+"puede ser una ayuda para el administrador de recordar cuál de los jugadores "
+"han pagado si está utilizando una tarifa para competir.</p>"
+
+#: ../admin/class-football-pool-admin-users.php:28
+msgid "Change league settings"
+msgstr "Cambiar las opciones de la liga"
+
+#: ../admin/class-football-pool-admin-users.php:29
+msgid "Help section about players"
+msgstr "Ayuda sobre los jugadores"
+
+#: ../admin/class-football-pool-admin-users.php:30
+msgid "Help section about leagues"
+msgstr "Ayuda sobre ligas"
+
+#: ../admin/class-football-pool-admin-users.php:39
+#: ../admin/class-football-pool-admin-users.php:49
+#: ../admin/class-football-pool-admin-users.php:536
+#: ../admin/class-football-pool-admin.php:108
+msgid "Users"
+msgstr "Usuarios"
+
+# Football Pool
+#: ../admin/class-football-pool-admin-users.php:48
+#: ../admin/class-football-pool-admin.php:73
+#: ../admin/class-football-pool-admin.php:74
+#: ../classes/class-football-pool.php:625
+msgid "Football Pool"
+msgstr "Football Pool"
+
+#: ../admin/class-football-pool-admin-users.php:55
+msgid ""
+"You are using leagues. To exclude users from the pool you have to take them "
+"out of any league."
+msgstr ""
+"Estas usando ligas. Para excluir usuarios del torneo tenes que sacarlos de "
+"todas las ligas"
+
+#: ../admin/class-football-pool-admin-users.php:57
+msgid "To exclude users tick the appropiate column"
+msgstr "Para excluir usuarios selecciona la columna apropiada"
+
+#: ../admin/class-football-pool-admin-users.php:67
+msgid "Save Changes"
+msgstr "Guardar cambios"
+
+#: ../admin/class-football-pool-admin-users.php:73
+#: ../admin/class-football-pool-admin.php:878
+#, fuzzy
+msgid "Change"
+msgstr "cambiar"
+
+#: ../admin/class-football-pool-admin-users.php:96
+#, php-format
+msgid "%s deleted as a user."
+msgstr "%s eliminados como usuarios"
+
+#: ../admin/class-football-pool-admin-users.php:100
+#, php-format
+msgid "%d users removed as user."
+msgstr "%d usuarios removidos como participantes"
+
+#: ../admin/class-football-pool-admin-users.php:111
+#, php-format
+msgid "%s added as a user."
+msgstr "%s agregados como usuarios"
+
+#: ../admin/class-football-pool-admin-users.php:115
+#, php-format
+msgid "%d users added as user."
+msgstr "%d usuarios agregados"
+
+#: ../admin/class-football-pool-admin-users.php:168
+#: ../admin/class-football-pool-admin-users.php:544
+#: ../classes/class-football-pool-pool.php:182
+msgid "unknown"
+msgstr "desconocido"
+
+#: ../admin/class-football-pool-admin-users.php:231
+msgid "plays in league"
+msgstr "juegan en una liga"
+
+#: ../admin/class-football-pool-admin-users.php:232
+msgid "registered for league"
+msgstr "Registrados para liga"
+
+#: ../admin/class-football-pool-admin-users.php:234
+msgid "not a user in the pool"
+msgstr "Sin usuarios en el torneo"
+
+#: ../admin/class-football-pool-admin-users.php:236
+msgid "payed?"
+msgstr "Pago ($)"
+
+#: ../admin/class-football-pool-admin-users.php:256
+msgid "Add"
+msgstr "Agregar"
+
+#: ../admin/class-football-pool-admin-users.php:257
+msgid "Remove"
+msgstr "Remover"
+
+#: ../admin/class-football-pool-admin-users.php:258
+msgid "Add to football pool"
+msgstr "Agregar a torneo"
+
+#: ../admin/class-football-pool-admin-users.php:258
+msgid "You are about to add one or more users to the pool."
+msgstr "Estas a punto de agregar uno o mas usuarios al torneo"
+
+#: ../admin/class-football-pool-admin-users.php:259
+msgid "Remove from football pool"
+msgstr "Remover de torneo"
+
+#: ../admin/class-football-pool-admin-users.php:259
+msgid "You are about to remove one or more users from the pool."
+msgstr "Estas a punto de eliminar uno o mas usuarios del torneo"
+
+#: ../admin/class-football-pool-admin-users.php:270
+#, fuzzy
+msgid "Change league to…"
+msgstr "Cambiar las opciones de la liga"
+
+#: ../admin/class-football-pool-admin-users.php:281
+msgid "Search Users"
+msgstr ""
+
+#: ../admin/class-football-pool-admin-users.php:284
+#, fuzzy
+msgid "League"
+msgstr "Ligas"
+
+#: ../admin/class-football-pool-admin-users.php:293
+msgid "List player email addresses"
+msgstr "Listar direcciones de correo de los jugadores"
+
+#: ../admin/class-football-pool-admin-users.php:307
+msgid "Email addresses"
+msgstr "Direccion de correo"
+
+#: ../admin/class-football-pool-admin-users.php:312
+msgid "Player"
+msgstr "Jugador"
+
+#: ../admin/class-football-pool-admin-users.php:319
+msgid "Not a player"
+msgstr "No es jugador"
+
+#: ../admin/class-football-pool-admin-users.php:460
+#: ../admin/class-football-pool-admin.php:920
+msgid "no data"
+msgstr "sin informacion"
+
+#: ../admin/class-football-pool-admin-users.php:533
+#: ../classes/class-football-pool.php:475
+msgid "Play in league"
+msgstr "Jugar en una liga"
+
+#: ../admin/class-football-pool-admin-users.php:536
+msgid ""
+"<strong>Important:</strong> An administrator can change users in the "
+"plugin's admin page for"
+msgstr ""
+"<strong>Importante:</strong> Un administrador puede cambiar los usuarios en "
+"la pagina de administracion"
+
+#: ../admin/class-football-pool-admin-users.php:547
+msgid "The webmaster put you in this league"
+msgstr "El webmaster te agrego en esta liga"
+
+#: ../admin/class-football-pool-admin-users.php:550
+msgid ""
+"if this value is different from the one you entered on registration, then "
+"the webmaster did not approve it yet."
+msgstr ""
+"Si este valor es distinto del que ingresaste al registrarte, entonces el "
+"webmaster no lo aprobo"
+
+#: ../admin/class-football-pool-admin.php:86
+msgid "Football Pool Options"
+msgstr "Opciones de Football Pool"
+
+#: ../admin/class-football-pool-admin.php:107
+msgid "Edit users"
+msgstr "Editar usuarios"
+
+#: ../admin/class-football-pool-admin.php:116
+msgid "Edit matches"
+msgstr "Editar partidos"
+
+#: ../admin/class-football-pool-admin.php:125
+msgid "Edit bonus questions"
+msgstr "Editar preguntas bonus"
+
+#: ../admin/class-football-pool-admin.php:126
+msgid "Questions"
+msgstr "Preguntas"
+
+#: ../admin/class-football-pool-admin.php:134
+msgid "Edit shoutbox"
+msgstr "Editar chat"
+
+#: ../admin/class-football-pool-admin.php:143
+msgid "Edit teams"
+msgstr "Editar equipos"
+
+#: ../admin/class-football-pool-admin.php:161
+msgid "Edit venues"
+msgstr "Editar estadios"
+
+#: ../admin/class-football-pool-admin.php:170
+msgid "Edit leagues"
+msgstr "Edit leagues"
+
+#: ../admin/class-football-pool-admin.php:179
+msgid "Edit rankings"
+msgstr "Editar rankings"
+
+#: ../admin/class-football-pool-admin.php:180
+msgid "Rankings"
+msgstr "Rankings"
+
+#: ../admin/class-football-pool-admin.php:188
+msgid "Edit match types"
+msgstr "Editar fecha o etapa"
+
+#: ../admin/class-football-pool-admin.php:197
+msgid "Edit groups"
+msgstr "Editar grupos"
+
+#: ../admin/class-football-pool-admin.php:259
+msgid "Settings"
+msgstr "Configuracion"
+
+#: ../admin/class-football-pool-admin.php:261
+msgid "Donate"
+msgstr ""
+
+#: ../admin/class-football-pool-admin.php:283
+#: ../admin/class-football-pool-admin.php:364
+msgid "Choose Image"
+msgstr "Elegir imagen"
+
+#: ../admin/class-football-pool-admin.php:778
+msgid "For more information:"
+msgstr "Para mas informacion"
+
+#: ../admin/class-football-pool-admin.php:814
+msgid "Add New"
+msgstr "Agregar nuevo"
+
+#: ../admin/class-football-pool-admin.php:864
+msgid "Apply"
+msgstr ""
+
+#: ../admin/class-football-pool-admin.php:938
+msgid "yes"
+msgstr "si"
+
+#: ../admin/class-football-pool-admin.php:939
+msgid "no"
+msgstr "no"
+
+#: ../admin/class-football-pool-admin.php:975
+#, fuzzy
+msgid "You are about to delete this item. 'Cancel' to stop, 'OK' to delete."
+msgstr "Estas a punto de eliminar una o mas ligas"
+
+#: ../admin/class-football-pool-admin.php:1190
+#: ../assets/admin/tinymce/tinymce-dialog.php:677
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:52
+#: ../assets/admin/tinymce/tinymce-dialog.php:130
+#: ../assets/admin/tinymce/tinymce-dialog.php:552
+#: ../assets/admin/tinymce/tinymce-dialog.php:590
+msgid "Select a shortcode"
+msgstr "Seleccionar un shortcode"
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:119
+msgid "Pool"
+msgstr "Partido"
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:120
+msgid "Links"
+msgstr "Enlaces"
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:121
+msgid "Other"
+msgstr "Otros"
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:133
+#: ../widgets/widget-football-pool-ranking.php:13
+msgid "Ranking"
+msgstr "Ranking"
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:134
+msgid "Predictions for match or question"
+msgstr "Los pronosticos para el partido o pregunta bonus"
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:135
+msgid "Score for a user"
+msgstr "Puntaje para un usuario"
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:136
+msgid "Ranking for a user"
+msgstr ""
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:137
+msgid "Group"
+msgstr "Grupo"
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:138
+msgid "Prediction form"
+msgstr "Formulario de pronosticos"
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:140
+#, fuzzy
+msgid "Next matches"
+msgstr "Editar partidos"
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:141
+#, fuzzy
+msgid "League info"
+msgstr "Opciones de Liga"
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:148
+#: ../assets/admin/tinymce/tinymce-dialog.php:263
+#: ../assets/admin/tinymce/tinymce-dialog.php:317
+#: ../assets/admin/tinymce/tinymce-dialog.php:524
+msgid "Select a ranking"
+msgstr "Seleccionar un ranking"
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:152
+#: ../assets/admin/tinymce/tinymce-dialog.php:167
+#: ../assets/admin/tinymce/tinymce-dialog.php:247
+#: ../assets/admin/tinymce/tinymce-dialog.php:267
+#: ../assets/admin/tinymce/tinymce-dialog.php:301
+#: ../assets/admin/tinymce/tinymce-dialog.php:321
+#: ../assets/admin/tinymce/tinymce-dialog.php:528
+#: ../assets/admin/tinymce/tinymce-dialog.php:624
+msgid "default"
+msgstr "defecto"
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:153
+#: ../assets/admin/tinymce/tinymce-dialog.php:268
+#: ../assets/admin/tinymce/tinymce-dialog.php:322
+#: ../assets/admin/tinymce/tinymce-dialog.php:529
+msgid "all scores"
+msgstr "todos los puntajes"
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:155
+#: ../assets/admin/tinymce/tinymce-dialog.php:270
+#: ../assets/admin/tinymce/tinymce-dialog.php:324
+#: ../assets/admin/tinymce/tinymce-dialog.php:531
+msgid "or choose a user defined ranking"
+msgstr "o seleccionar un ranking definido por usuario"
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:163
+#: ../assets/admin/tinymce/tinymce-dialog.php:494
+msgid "Select a league"
+msgstr "Seleccionar una liga"
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:168
+msgid "all players"
+msgstr "todos los jugadores"
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:170
+msgid "or choose a league"
+msgstr "o elegir una liga"
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:185
+#: ../assets/admin/tinymce/tinymce-dialog.php:485
+msgid "Number of players"
+msgstr "Cantidad de jugadores"
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:193
+msgid "Show number of predictions?"
+msgstr "Mostar el numero de pronósticos?"
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:198
+#: ../assets/admin/tinymce/tinymce-dialog.php:286
+#: ../assets/admin/tinymce/tinymce-dialog.php:340
+#: ../assets/admin/tinymce/tinymce-dialog.php:475
+#: ../assets/admin/tinymce/tinymce-dialog.php:612
+msgid "information about PHP's date format"
+msgstr "información sobre el formato de fecha PHP"
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:198
+#: ../assets/admin/tinymce/tinymce-dialog.php:286
+#: ../assets/admin/tinymce/tinymce-dialog.php:340
+#: ../assets/admin/tinymce/tinymce-dialog.php:475
+#: ../assets/admin/tinymce/tinymce-dialog.php:607
+#: ../assets/admin/tinymce/tinymce-dialog.php:612
+msgid "Date"
+msgstr "Fecha"
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:202
+#: ../assets/admin/tinymce/tinymce-dialog.php:290
+#: ../assets/admin/tinymce/tinymce-dialog.php:344
+#: ../assets/admin/tinymce/tinymce-dialog.php:479
+msgid "postdate"
+msgstr "fecha de publicación"
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:203
+#: ../assets/admin/tinymce/tinymce-dialog.php:291
+#: ../assets/admin/tinymce/tinymce-dialog.php:345
+#: ../assets/admin/tinymce/tinymce-dialog.php:480
+msgid "custom date"
+msgstr "fecha personalizada"
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:209
+#: ../assets/admin/tinymce/tinymce-dialog.php:606
+#: ../assets/admin/tinymce/tinymce-dialog.php:620
+msgid "Match"
+msgstr "Partido"
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:213
+msgid "Select a match"
+msgstr "Seleccionar un partido"
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:219
+msgid "and/or"
+msgstr "y/o"
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:223
+msgid "Question"
+msgstr "Pregunta"
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:227
+msgid "Select a question"
+msgstr "Seleccionar una pregunta"
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:234
+#: ../assets/admin/tinymce/tinymce-dialog.php:278
+#: ../assets/admin/tinymce/tinymce-dialog.php:332
+msgid "Text"
+msgstr "Texto"
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:237
+msgid "Text to display if there is nothing to show"
+msgstr "Texto que se mostrará si no hay nada para mostrar"
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:243
+#: ../assets/admin/tinymce/tinymce-dialog.php:297
+msgid "Select a user"
+msgstr "Seleccionar un usuario"
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:248
+#: ../assets/admin/tinymce/tinymce-dialog.php:302
+msgid "logged in user"
+msgstr "Usuario conectado"
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:250
+#: ../assets/admin/tinymce/tinymce-dialog.php:304
+msgid "or choose another user"
+msgstr "o elegir otro usuario"
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:351
+#: ../assets/admin/tinymce/tinymce-dialog.php:437
+#: ../assets/admin/tinymce/tinymce-dialog.php:464
+msgid "Select a group"
+msgstr "Seleccionar un grupo"
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:362
+#: ../assets/admin/tinymce/tinymce-dialog.php:405
+msgid "Click a label to show the options."
+msgstr "Clic en una etiqueta para mostrar las opciones."
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:369
+#: ../assets/admin/tinymce/tinymce-dialog.php:412
+msgid "Select one or more matches"
+msgstr "Seleccionar uno o mas partidos"
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:379
+#: ../assets/admin/tinymce/tinymce-dialog.php:422
+#: ../assets/admin/tinymce/tinymce-dialog.php:449
+msgid "Select one or more match types"
+msgstr "Seleccionar uno o mas fechas o rondas"
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:394
+msgid "Select one or more questions"
+msgstr "Seleccionar una o mas preguntas"
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:511
+#, fuzzy
+msgid "Show this info"
+msgstr "Mostrar este grupo"
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:516
+#, fuzzy
+msgid "average points"
+msgstr "puntos"
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:517
+msgid "weighted average points"
+msgstr ""
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:518
+#, fuzzy
+msgid "player names"
+msgstr "jugadores"
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:519
+#, fuzzy
+msgid "number of players"
+msgstr "Cantidad de jugadores"
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:539
+#: ../widgets/widget-football-pool-next-prediction.php:15
+msgid "Format"
+msgstr ""
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:555
+msgid "Link to page"
+msgstr "Link a una página"
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:556
+msgid "Link to registration"
+msgstr "Enlace para registración"
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:561
+msgid "Select a page"
+msgstr "Seleccionar una página"
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:575
+msgid "Link title"
+msgstr "Título de enlace"
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:576
+msgid "New window?"
+msgstr "Nueva ventana?"
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:593
+msgid "Countdown"
+msgstr "Cuenta regresiva"
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:594
+#: ../assets/admin/tinymce/tinymce-dialog.php:595
+#: ../assets/admin/tinymce/tinymce-dialog.php:596
+#: ../assets/admin/tinymce/tinymce-dialog.php:597
+msgid "Value for"
+msgstr ""
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:595
+msgid "Full points"
+msgstr "Puntaje completo"
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:596
+msgid "Toto points"
+msgstr "Puntaje LVE"
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:603
+msgid "Countdown to"
+msgstr "Cuenta regresiva para"
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:625
+msgid "first match"
+msgstr "primer partido"
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:627
+msgid "or choose a match"
+msgstr "o seleccionar un partido"
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:635
+msgid "More information about this on the Help page."
+msgstr "Más información sobre esto en la página de ayuda"
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:635
+msgid "Texts for counter"
+msgstr "Texto para el contador"
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:639
+msgid "no texts"
+msgstr "no hay textos"
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:642
+msgid "before - time not passed"
+msgstr "antes - tiempo no pasado"
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:642
+#: ../assets/admin/tinymce/tinymce-dialog.php:643
+#: ../assets/admin/tinymce/tinymce-dialog.php:645
+#: ../assets/admin/tinymce/tinymce-dialog.php:646
+msgid ""
+"Leave empty for the default texts. Don't forget spaces between a text and "
+"the timer."
+msgstr ""
+"Dejar vacío para los textos por defecto. No olvidar de dejar espacios entre "
+"un texto y el temporizador."
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:643
+msgid "after - time not passed"
+msgstr "después - tiempo no pasado"
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:645
+msgid "before - time passed"
+msgstr "antes - tiempo pasado"
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:646
+msgid "after - time passed"
+msgstr "después - tiempo pasado"
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:652
+msgid "Display inline"
+msgstr "Visualización en linea"
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:660
+msgid "Time format"
+msgstr ""
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:664
+#: ../widgets/widget-football-pool-next-prediction.php:141
+msgid "days, hours, minutes, seconds"
+msgstr ""
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:665
+#: ../widgets/widget-football-pool-next-prediction.php:142
+msgid "hours, minutes, seconds"
+msgstr ""
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:666
+#: ../widgets/widget-football-pool-next-prediction.php:143
+#, fuzzy
+msgid "only seconds"
+msgstr "segundos"
+
+#: ../assets/admin/tinymce/tinymce-dialog.php:680
+msgid "Insert"
+msgstr "Insertar"
+
+#: ../classes/class-football-pool-chart-data.php:241
+#: ../classes/class-football-pool-chart-data.php:265
+#: ../pages/class-football-pool-statistics-page.php:245
+msgid "full score"
+msgstr "Puntaje completo"
+
+#: ../classes/class-football-pool-chart-data.php:242
+#: ../classes/class-football-pool-chart-data.php:266
+#: ../pages/class-football-pool-statistics-page.php:246
+msgid "toto score"
+msgstr "Puntaje L-V-E"
+
+#: ../classes/class-football-pool-chart-data.php:243
+#: ../classes/class-football-pool-chart-data.php:267
+#: ../pages/class-football-pool-statistics-page.php:247
+msgid "no score"
+msgstr "Sin puntaje"
+
+#: ../classes/class-football-pool-chart-data.php:249
+#: ../classes/class-football-pool-chart-data.php:273
+#: ../pages/class-football-pool-statistics-page.php:249
+msgid "just the goal bonus"
+msgstr "Puntaje por goles"
+
+#: ../classes/class-football-pool-chart-data.php:252
+msgid "goal difference bonus"
+msgstr "bonus por diferencia de goles"
+
+#: ../classes/class-football-pool-chart-data.php:276
+#: ../pages/class-football-pool-statistics-page.php:252
+msgid "toto score with goal difference bonus"
+msgstr ""
+"puntuación de adivinar los goles de un equipo con bonificación diferencial "
+"de goles"
+
+#: ../classes/class-football-pool-chart-data.php:285
+#: ../pages/class-football-pool-statistics-page.php:298
+msgid "points scored"
+msgstr "Puntos obtenidos"
+
+#: ../classes/class-football-pool-chart-data.php:286
+msgid "points missed"
+msgstr "Puntos omitidos"
+
+#: ../classes/class-football-pool-chart-data.php:296
+#: ../classes/class-football-pool-chart-data.php:310
+msgid "wrong"
+msgstr "Mal"
+
+#: ../classes/class-football-pool-chart-data.php:300
+msgid "still open"
+msgstr "Sigue abierto"
+
+#: ../classes/class-football-pool-chart-data.php:311
+msgid "no answer"
+msgstr "sin respuesta"
+
+#: ../classes/class-football-pool-chart-data.php:347
+#: ../classes/class-football-pool-matches.php:342
+#: ../classes/class-football-pool-matches.php:469
+msgid "match"
+msgstr "Partido"
+
+#: ../classes/class-football-pool-chart-data.php:353
+#: ../pages/class-football-pool-statistics-page.php:272
+msgid "bonus question"
+msgstr "pregunta bonus"
+
+#: ../classes/class-football-pool-chart.php:34
+msgid "Charts are not enabled"
+msgstr "Los graficos no estas habilitados"
+
+#: ../classes/class-football-pool-chart.php:217
+msgid "matches and questions"
+msgstr "Partidos y preguntas"
+
+#: ../classes/class-football-pool-chart.php:223
+msgid "Click and drag in the plot area to zoom in"
+msgstr "Clic y arrastrar para hacer zoom"
+
+#: ../classes/class-football-pool-chart.php:224
+msgid "Drag your finger over the plot to zoom in"
+msgstr "Arrastra tus dedos para hacer zoom"
+
+#: ../classes/class-football-pool-groups.php:301
+msgid "wins"
+msgstr "ganados"
+
+#: ../classes/class-football-pool-groups.php:303
+msgctxt "short for 'wins'"
+msgid "w"
+msgstr "PG"
+
+#: ../classes/class-football-pool-groups.php:304
+msgid "draws"
+msgstr "empates"
+
+#: ../classes/class-football-pool-groups.php:306
+msgctxt "short for 'draws'"
+msgid "d"
+msgstr "PE"
+
+#: ../classes/class-football-pool-groups.php:307
+msgid "losses"
+msgstr "perdidos"
+
+#: ../classes/class-football-pool-groups.php:309
+msgctxt "short for 'losses'"
+msgid "l"
+msgstr "PP"
+
+#: ../classes/class-football-pool-groups.php:327
+msgctxt "short for 'matches'"
+msgid "m"
+msgstr "PJ"
+
+#: ../classes/class-football-pool-groups.php:332
+msgctxt "short for 'points'"
+msgid "p"
+msgstr "P"
+
+#: ../classes/class-football-pool-matches.php:347
+#, fuzzy
+msgid "Match statistics"
+msgstr "Estadisticas"
+
+#: ../classes/class-football-pool-matches.php:373
+#: ../classes/class-football-pool-matches.php:515
+msgctxt "a date format string (see http://php.net/date)"
+msgid "l"
+msgstr "l"
+
+#: ../classes/class-football-pool-matches.php:479
+#: ../classes/class-football-pool-statistics.php:198
+msgid "score"
+msgstr "puntaje"
+
+#: ../classes/class-football-pool-matches.php:690
+msgid "view other users predictions"
+msgstr "Ver los pronosticos de los otros usuarios"
+
+#: ../classes/class-football-pool-matches.php:774
+msgid "use your joker?"
+msgstr "Usar comodin?"
+
+#: ../classes/class-football-pool-pagination.php:62
+#, php-format
+msgid "1 item"
+msgid_plural "%s items"
+msgstr[0] "1 item"
+msgstr[1] "%s items"
+
+#: ../classes/class-football-pool-pool.php:954
+msgid "Important:"
+msgstr "Importante:"
+
+#: ../classes/class-football-pool-pool.php:957
+msgid "answer this question before this date"
+msgstr "responde esta pregunta antes de esta fecha"
+
+#: ../classes/class-football-pool-pool.php:971
+msgid ""
+"it's is no longer possible to answer this question, or change your answer"
+msgstr "Ya no es posible responder esta pregunta, o cambiar tu respuesta"
+
+#: ../classes/class-football-pool-pool.php:972
+msgid "closed on"
+msgstr "cerrado"
+
+#: ../classes/class-football-pool-pool.php:984
+#: ../classes/class-football-pool-pool.php:993
+#: ../classes/class-football-pool-pool.php:1306
+#: ../classes/class-football-pool-pool.php:1315
+msgid "view other users answers"
+msgstr "ver las respuesta de otros usuarios"
+
+#: ../classes/class-football-pool-pool.php:1027
+msgid ""
+"Something went wrong during the save. Check if you are still logged in. If "
+"the problems persist, then contact your webmaster."
+msgstr ""
+"No se pudo guardar. Por favor revisa si tu sesion esta activa. Si los "
+"problemas persisten contactare con el webmaster"
+
+#: ../classes/class-football-pool-shortcodes.php:451
+#: ../pages/class-football-pool-pool-page.php:77
+#, fuzzy, php-format
+msgid ""
+"You have to be a <a href=\"%s\">registered</a> user and <a href=\"%s"
+"\">logged in</a> to play in this pool."
+msgstr ""
+"Tenes que estar registrado e <a href=\"%s\">iniciar sesión</a> para jugar"
+
+#: ../classes/class-football-pool-shortcodes.php:554
+#: ../widgets/widget-football-pool-lastgames.php:98
+#: ../widgets/widget-football-pool-ranking.php:79
+msgid "No match data available."
+msgstr "Sin informacion del partido"
+
+#: ../classes/class-football-pool-shortcodes.php:647
+msgid "register"
+msgstr "Registrarse"
+
+#: ../classes/class-football-pool-statistics.php:50
+msgid "User unknown."
+msgstr "Usuario desconocido"
+
+#: ../classes/class-football-pool-statistics.php:74
+#: ../classes/class-football-pool-statistics.php:77
+#: ../classes/class-football-pool-statistics.php:104
+#: ../classes/class-football-pool-statistics.php:109
+msgid "This data is not (yet) available."
+msgstr "Esta información ya no esta disponible"
+
+#: ../classes/class-football-pool-statistics.php:129
+msgid "correct?"
+msgstr "correcto?"
+
+#: ../classes/class-football-pool-statistics.php:140
+#: ../pages/class-football-pool-statistics-page.php:275
+msgid "correct answer"
+msgstr "respuesta correcta"
+
+#: ../classes/class-football-pool-statistics.php:144
+#: ../pages/class-football-pool-statistics-page.php:276
+msgid "wrong answer"
+msgstr "respuesta incorrecta"
+
+#: ../classes/class-football-pool-statistics.php:197
+msgid "prediction"
+msgstr "pronostico"
+
+#: ../classes/class-football-pool-statistics.php:214
+msgctxt "to indicate that a user has set a joker for this match"
+msgid "joker set"
+msgstr ""
+
+#: ../classes/class-football-pool-team.php:81
+#: ../classes/class-football-pool-team.php:91
+#: ../classes/class-football-pool-team.php:105
+msgid "team photo for"
+msgstr "Foto de equipo para"
+
+#: ../classes/class-football-pool-team.php:89
+msgid "Click to enlarge:"
+msgstr "Clic para agrandar"
+
+#: ../classes/class-football-pool-team.php:104
+#: ../classes/class-football-pool.php:393
+msgid "close"
+msgstr "cerrado"
+
+#: ../classes/class-football-pool-widget.php:109
+msgid "Football pool plugin"
+msgstr "Plugin de Torneo de Futbol"
+
+#: ../classes/class-football-pool.php:4
+msgid "teams"
+msgstr "equipos"
+
+#: ../classes/class-football-pool.php:5
+msgid "groups"
+msgstr "grupos"
+
+#: ../classes/class-football-pool.php:6
+#: ../pages/class-football-pool-teams-page.php:37
+msgid "venues"
+msgstr "estadio"
+
+#: ../classes/class-football-pool.php:7
+msgid "rules"
+msgstr "reglas"
+
+#: ../classes/class-football-pool.php:8
+#, fuzzy
+msgid "prediction sheet"
+msgstr "pronosticos"
+
+#: ../classes/class-football-pool.php:10
+#, fuzzy
+msgid "statistics"
+msgstr "Estadisticas"
+
+#: ../classes/class-football-pool.php:11
+#, fuzzy
+msgid "player predictions"
+msgstr "ver pronosticos"
+
+#: ../classes/class-football-pool.php:61
+msgid "j F"
+msgstr "j F"
+
+#: ../classes/class-football-pool.php:127
+msgid "all users"
+msgstr "todos los usuarios"
+
+#: ../classes/class-football-pool.php:128
+msgid "for money"
+msgstr "por dinero"
+
+#: ../classes/class-football-pool.php:129
+msgid "for free"
+msgstr "gratis"
+
+#: ../classes/class-football-pool.php:135
+msgid "default ranking"
+msgstr "ranking por default"
+
+#: ../classes/class-football-pool.php:142
+msgid "Season 1"
+msgstr ""
+
+#: ../classes/class-football-pool.php:360
+msgid "second"
+msgstr "segundo"
+
+#: ../classes/class-football-pool.php:361
+msgid "seconds"
+msgstr "segundos"
+
+#: ../classes/class-football-pool.php:362
+msgid "day"
+msgstr "dia"
+
+#: ../classes/class-football-pool.php:363
+msgid "days"
+msgstr "dias"
+
+#: ../classes/class-football-pool.php:364
+msgid "hour"
+msgstr "hora"
+
+#: ../classes/class-football-pool.php:365
+msgid "hours"
+msgstr "horas"
+
+#: ../classes/class-football-pool.php:366
+msgid "minute"
+msgstr "minuto"
+
+#: ../classes/class-football-pool.php:367
+msgid "minutes"
+msgstr "minutos"
+
+#: ../classes/class-football-pool.php:368
+msgid "Wait "
+msgstr "Esperar"
+
+#: ../classes/class-football-pool.php:369
+msgid " before the tournament starts"
+msgstr "antes de que comience el torneo"
+
+#: ../classes/class-football-pool.php:371
+msgid " ago the tournament started."
+msgstr " desde que el torneo empezo"
+
+#: ../classes/class-football-pool.php:396
+msgid "Error message"
+msgstr "Mensaje de error"
+
+#: ../classes/class-football-pool.php:489
+msgid "<strong>ERROR:</strong> You must choose a league to play in!"
+msgstr "<strong>ERROR:</strong> Tenes que elegir una liga para jugar!"
+
+#: ../classes/class-football-pool.php:499
+msgid ""
+"Click below to go to the football pool and predict your scores. Good luck!"
+msgstr "Clic para acceder al torneo e ingresar tus pronosticos. Mucha suerte!"
+
+#: ../classes/class-football-pool.php:500
+msgid "Fill in your predictions."
+msgstr "Completa tus pronosticos"
+
+#: ../classes/class-football-pool.php:506
+msgid "Start immediately with your predictions"
+msgstr "Comenzar inmediatamente con tus pronosticos"
+
+#: ../pages/class-football-pool-groups-page.php:12
+msgid "matches in the group stage"
+msgstr "partidos en la ronda"
+
+#: ../pages/class-football-pool-groups-page.php:23
+msgid "view all groups"
+msgstr "ver todos los grupos"
+
+#: ../pages/class-football-pool-pool-page.php:49
+msgid "Predictions"
+msgstr "Pronosticos"
+
+#: ../pages/class-football-pool-ranking-page.php:32
+msgid "Choose league"
+msgstr "Elegir liga"
+
+#: ../pages/class-football-pool-ranking-page.php:50
+msgid "go"
+msgstr "ir"
+
+#: ../pages/class-football-pool-ranking-page.php:68
+msgid "No results yet. Below is a list of all users."
+msgstr "Sin resultados aun. Debajo esta la lista de todos los usuarios"
+
+#: ../pages/class-football-pool-ranking-page.php:77
+msgid "No users have registered for this pool (yet)."
+msgstr "No hay usuarios registrados para este torneo"
+
+#: ../pages/class-football-pool-stadiums-page.php:30
+msgid "view all venues"
+msgstr "ver todos los estadios"
+
+#: ../pages/class-football-pool-statistics-page.php:10
+#, fuzzy
+msgid "Chart settings"
+msgstr "Configuracion personalizada"
+
+#: ../pages/class-football-pool-statistics-page.php:20
+#, fuzzy
+msgid "No settings available"
+msgstr "Sin informacion del partido"
+
+#: ../pages/class-football-pool-statistics-page.php:24
+msgid "Change charts"
+msgstr "Cambiar grafico"
+
+#: ../pages/class-football-pool-statistics-page.php:65
+msgid "Statistics not yet available"
+msgstr "Las estadísticas no estan disponibles"
+
+#: ../pages/class-football-pool-statistics-page.php:66
+msgid ""
+"After the first match you can view your scores and those of other users here."
+msgstr ""
+"Despues del primer partido podras ver los puntajes de todos los usuarios aqui"
+
+#: ../pages/class-football-pool-statistics-page.php:128
+msgid "what dit other users score?"
+msgstr "cuantos puntos consiguieron otros usuarios?"
+
+#: ../pages/class-football-pool-statistics-page.php:145
+msgid "other users scores"
+msgstr "puntaje de los otros usuarios"
+
+#: ../pages/class-football-pool-statistics-page.php:166
+#, php-format
+msgid "Compare the scores of %s with other users."
+msgstr "Comparar los puntales de %s con otros usuarios"
+
+#: ../pages/class-football-pool-statistics-page.php:182
+msgid "scores in matches"
+msgstr "puntaje en todos los partidos"
+
+#: ../pages/class-football-pool-statistics-page.php:198
+msgid "scores in bonus questions"
+msgstr "puntaje en las preguntas bonus"
+
+#: ../pages/class-football-pool-statistics-page.php:210
+#, no-php-format
+msgid "% of the max points"
+msgstr "% de puntaje maximo"
+
+#: ../pages/class-football-pool-statistics-page.php:213
+msgid "with the joker used"
+msgstr "con el comodin"
+
+#: ../pages/class-football-pool-statistics-page.php:224
+#, fuzzy
+msgid "No users selected"
+msgstr "Ningun usuario seleccionado"
+
+#: ../pages/class-football-pool-statistics-page.php:225
+msgid "The top 5 players are shown below."
+msgstr ""
+
+#: ../pages/class-football-pool-statistics-page.php:225
+#: ../pages/class-football-pool-statistics-page.php:230
+#, fuzzy
+msgid "You can select other users in the chart settings."
+msgstr "Podes seleccionar otros usuarios del lado izquierdo"
+
+#: ../pages/class-football-pool-statistics-page.php:242
+msgid "scores"
+msgstr "puntajes"
+
+#: ../pages/class-football-pool-statistics-page.php:324
+#: ../pages/class-football-pool-statistics-page.php:328
+#: ../pages/class-football-pool-statistics-page.php:343
+msgid "position in the pool"
+msgstr "posicion en el torneo"
+
+#: ../pages/class-football-pool-statistics-page.php:327
+msgid "[\"th\", \"st\", \"nd\", \"rd\", \"th\"]"
+msgstr "[\"th\", \"st\", \"nd\", \"rd\", \"th\"]"
+
+#: ../pages/class-football-pool-teams-page.php:14
+msgid "go to the team site"
+msgstr "ir al sitio del equipo"
+
+#: ../pages/class-football-pool-teams-page.php:27
+msgid "plays in"
+msgstr "juega en"
+
+#: ../pages/class-football-pool-teams-page.php:64
+msgid "view all teams"
+msgstr "ver todos los equipos"
+
+#: ../pages/class-football-pool-user-page.php:14
+msgid "view all statistics for this user"
+msgstr "ver las estadisticas de este usuario"
+
+#: ../pages/class-football-pool-user-page.php:15
+#: ../pages/class-football-pool-user-page.php:23
+msgid "Statistics"
+msgstr "Estadisticas"
+
+#: ../pages/class-football-pool-user-page.php:33
+msgid "Below are all the predictions for"
+msgstr "Debajo estan todos los pronosticos para"
+
+#: ../pages/class-football-pool-user-page.php:38
+msgid "Only matches and bonus questions that can't be changed are shown here."
+msgstr ""
+"Solo los partidos y preguntas bonus que no pueden modificarse se muestran "
+"aqui"
+
+#: ../pages/class-football-pool-user-page.php:60
+msgid "No user selected."
+msgstr "Ningun usuario seleccionado"
+
+#: ../widgets/widget-football-pool-group.php:10
+msgid "Group Widget"
+msgstr "Widget de grupo"
+
+#: ../widgets/widget-football-pool-group.php:11
+msgid "this widget displays the tournament standing for a group."
+msgstr "Este widget muestra la posición del torneo para un grupo."
+
+# Standing
+#: ../widgets/widget-football-pool-group.php:12
+#: ../widgets/widget-football-pool-ranking.php:12
+msgid "standing"
+msgstr "permanente"
+
+#: ../widgets/widget-football-pool-group.php:13
+msgid "Show this group"
+msgstr "Mostrar este grupo"
+
+#: ../widgets/widget-football-pool-group.php:14
+msgid "Layout of the widget"
+msgstr "Diseño del widget"
+
+#: ../widgets/widget-football-pool-group.php:78
+msgid "wide"
+msgstr "ancho"
+
+#: ../widgets/widget-football-pool-group.php:79
+msgid "small"
+msgstr "chico"
+
+#: ../widgets/widget-football-pool-lastgames.php:10
+msgid "Last Games Widget"
+msgstr "Widget de los ultimos partidos"
+
+#: ../widgets/widget-football-pool-lastgames.php:11
+msgid "this widget displays the last X played games of the tournament."
+msgstr "Este widget muestra los últimos X partidos jugados del torneo."
+
+# Last matches
+#: ../widgets/widget-football-pool-lastgames.php:12
+msgid "last matches"
+msgstr "ultimos partidos"
+
+#: ../widgets/widget-football-pool-lastgames.php:13
+msgid "Number of games to show"
+msgstr "Cantidad de partidos a mostrar"
+
+#: ../widgets/widget-football-pool-lastgames.php:91
+msgid "view predictions"
+msgstr "ver pronosticos"
+
+#: ../widgets/widget-football-pool-logout.php:10
+msgid "Log out Widget"
+msgstr "Widget para cerrar sesion"
+
+#: ../widgets/widget-football-pool-logout.php:11
+msgid "add a log out/log in button."
+msgstr "añadir un botón de iniciar/cerrar sesion."
+
+#: ../widgets/widget-football-pool-logout.php:42
+#: ../widgets/widget-football-pool-logout.php:43
+msgid "Log out"
+msgstr "Cerrar sesion"
+
+#: ../widgets/widget-football-pool-logout.php:48
+#: ../widgets/widget-football-pool-logout.php:49
+msgid "Log in"
+msgstr "Iniciar sesion"
+
+#: ../widgets/widget-football-pool-next-prediction.php:10
+msgid "Countdown Next Prediction Widget"
+msgstr "Widget  de cuenta regresiva para el siguiente partido"
+
+#: ../widgets/widget-football-pool-next-prediction.php:11
+msgid ""
+"this widget displays the time that is left to predict the next match "
+"(optionally only for a given team)."
+msgstr ""
+"Este widget muestra el tiempo que queda para predecir el próximo partido "
+"(opcional sólo para un equipo determinado)."
+
+#: ../widgets/widget-football-pool-next-prediction.php:12
+msgid "countdown"
+msgstr "cuenta regresiva"
+
+#: ../widgets/widget-football-pool-next-prediction.php:13
+msgid "Team"
+msgstr "Equipo"
+
+#: ../widgets/widget-football-pool-next-prediction.php:14
+msgid "Also show when not logged in?"
+msgstr "Mostrar también cuando no estás conectado?"
+
+#: ../widgets/widget-football-pool-next-prediction.php:81
+msgid "Just "
+msgstr "Faltan "
+
+#: ../widgets/widget-football-pool-next-prediction.php:82
+msgid " until"
+msgstr " para"
+
+#: ../widgets/widget-football-pool-next-prediction.php:83
+msgid "started "
+msgstr "inicio"
+
+#: ../widgets/widget-football-pool-next-prediction.php:84
+msgid " ago:"
+msgstr "hace:"
+
+#: ../widgets/widget-football-pool-next-prediction.php:89
+msgid "click to enter prediction"
+msgstr "clic para ingresar pronostico"
+
+#: ../widgets/widget-football-pool-ranking.php:10
+msgid "Ranking Widget"
+msgstr "Widget de ranking"
+
+#: ../widgets/widget-football-pool-ranking.php:11
+msgid "this widget displays the top X players in the pool."
+msgstr "Este widget muestra los mejores X jugadores del torneo."
+
+#: ../widgets/widget-football-pool-ranking.php:14
+msgid "Number of users to show"
+msgstr "Cantidad de usuarios a mostrar"
+
+#: ../widgets/widget-football-pool-ranking.php:15
+msgid "Show players from this league"
+msgstr "Mostrar jugadores de esta liga"
+
+#: ../widgets/widget-football-pool-shoutbox.php:10
+msgid "Shoutbox Widget"
+msgstr "Widget chat"
+
+#: ../widgets/widget-football-pool-shoutbox.php:11
+msgid "a shoutbox for your players. Leave short messages."
+msgstr "un chat para sus jugadores. Para mensajes cortos"
+
+#: ../widgets/widget-football-pool-shoutbox.php:12
+msgid "shoutbox"
+msgstr "chat"
+
+#: ../widgets/widget-football-pool-shoutbox.php:13
+msgid "Number of messages to display"
+msgstr "Cantidad de mensajes a mostrar"
+
+#: ../widgets/widget-football-pool-shoutbox.php:90
+#, php-format
+msgid "(<span>%s</span> characters remaining)"
+msgstr "(<span>%s</span> caracteres disponibles)"
+
+#: ../widgets/widget-football-pool-shoutbox.php:97
+#, php-format
+msgid "all text longer than %s characters will be removed!"
+msgstr "todo el texto mayor a %s caracteres seran removidos!"
+
+#: ../widgets/widget-football-pool-shoutbox.php:102
+#, fuzzy
+msgctxt "Save button for the shoutbox widget"
+msgid "save"
+msgstr "guardar"
+
+#~ msgid "question %d deleted"
+#~ msgstr "Pregunta %d eliminada"
+
+#~ msgid "question %d updated"
+#~ msgstr "Pregunta %d actualizada"
+
+#~ msgid "Extra layout options"
+#~ msgstr "Opciones de diseño adicionales"
+
+#~ msgid ""
+#~ "Show photo's and/or info about your teams and venues in the listing on "
+#~ "the teams and venues pages."
+#~ msgstr ""
+#~ "Mostrar fotos y/o información sobre sus equipos y estadios en la lista de "
+#~ "los equipos y las páginas de estadios."
+
+#~ msgid "New shortcodes"
+#~ msgstr "Shortcodes nuevos"
+
+#~ msgid ""
+#~ "New shortcodes to display the score of a single user, to display the "
+#~ "predictions for a match or question and to display a table of matches. "
+#~ "Use the button in the toolbar to include them:"
+#~ msgstr ""
+#~ "Nuevos shortcodes para mostrar el resultado de un solo usuario, para "
+#~ "mostrar las predicciones para un partido o pregunta y para mostrar una "
+#~ "tabla de partidos. Utilice el botón de la barra de herramientas para "
+#~ "incluirlos:"
+
+#~ msgid ""
+#~ "The plugin keeps track of changes in the data that might affect the "
+#~ "ranking. The changes are displayed in the log and this log is used for "
+#~ "the new smart recalculation of the score table."
+#~ msgstr ""
+#~ "El plugin realiza un seguimiento de los cambios en los datos que puedan "
+#~ "afectar a la clasificación. Los cambios se muestran en el log, y este log "
+#~ "se utiliza para el nuevo cálculo inteligente de la tabla de puntuación."
+
+#~ msgid "Keep data"
+#~ msgstr "Mantener información"
+
+#~ msgid "Keep your data in the database when deactivating the plugin."
+#~ msgstr ""
+#~ "Mantenga sus datos en la base de datos cuando se desactiva el plugin."
+
+#~ msgid "Tournament / competition ranking"
+#~ msgstr "Ranking de Torneo / Competición"
+
+#~ msgid ""
+#~ "Change the points for wins and draws if your sport doesn't use the 3/1 "
+#~ "point rule."
+#~ msgstr ""
+#~ "Cambie los puntos por victorias y empates si el deporte no utiliza la "
+#~ "regla de puntos 3/1."
+
+#~ msgid "Disable jokers"
+#~ msgstr "Deshabilitar comodines"
+
+#~ msgid "You can completely disable jokers if you don't want to use them."
+#~ msgstr ""
+#~ "Puede desactivar completamente los comodines si usted no quiere usarlos."
+
+#~ msgid ""
+#~ "A new scoring option: reward a player with a bonus if the correct "
+#~ "difference in goals is predicted."
+#~ msgstr ""
+#~ "Una nueva opción de puntuación: recompensar a un jugador con un bonus si "
+#~ "se prevé que la diferencia en los arcos son correctas."
+
+#~ msgid "You can now link questions directly to a match."
+#~ msgstr "Ahora puede enlazar preguntas directamente a un partido."
+
+#~ msgid "match import with overwrite"
+#~ msgstr "importacion con sobrescritura de partidos"
+
+#~ msgid "match %d deleted"
+#~ msgstr "partido %d eliminado."
+
+#~ msgid "edit"
+#~ msgstr "editar"
+
+#~ msgid "delete"
+#~ msgstr "eliminar"
+
+#~ msgid "match with end score added to pool"
+#~ msgstr "Se agrego el puntaje final de un partido al torneo"
+
+#~ msgid "match %d changed"
+#~ msgstr "el partido %d fue modificado"
+
+#~ msgid "Are you sure? `OK` to proceed, `Cancel` to stop."
+#~ msgstr "Estas seguro? \"OK\" para continuar, \"Cancelar\" para detenerse"
+
+#~ msgid "Webmaster"
+#~ msgstr "Webmaster"
+
+#~ msgid "This value is used for the shortcode [fp-webmaster]."
+#~ msgstr "Este valor es usado para el shortcode [fp-webmaster]."
+
+#~ msgid "Money"
+#~ msgstr "Dinero"
+
+#~ msgid ""
+#~ "If you play for money, then this is the sum users have to pay. The "
+#~ "shortcode [fp-money] adds this value in the content."
+#~ msgstr ""
+#~ "Si juegas con dinero, este es el monto que debe abonar un jugador para "
+#~ "participar. El shortcode [fp-money] agrega este valor en el contenido"
+
+#~ msgid "Bank"
+#~ msgstr "Banco"
+
+#~ msgid ""
+#~ "If you play for money, then this is the person you have to give the "
+#~ "money. The shortcode [fp-bank] adds this value in the content."
+#~ msgstr ""
+#~ "Si juegas con dinero, esta es la persona a la que debe abonarse la "
+#~ "inscripcion. El shortcode [fp-bank] agrega este valor al contenido."
+
+#~ msgid "Start date"
+#~ msgstr "Fecha de inicio"
+
+#~ msgid ""
+#~ "The start date of the tournament or pool. The shortcode [fp-start] adds "
+#~ "this value in the content."
+#~ msgstr ""
+#~ "La fecha de incoio del campeonato. El shortcode [fp-start] agrega este "
+#~ "valor al contenido."
+
+#~ msgid "Show (gr)avatars"
+#~ msgstr "Mostrar (gr)avatares"
+
+#~ msgid "Show the user's (gr)avatar in ranking tables (if available)."
+#~ msgstr ""
+#~ "Mostrar el (gr)avatar del usuario en la tabla de ranking (si esta "
+#~ "disponible)."
+
+#~ msgid ""
+#~ "When checked the number of predictions (matches and questions) a user "
+#~ "saved is shown on the ranking page. This setting also effects the default "
+#~ "value for the ranking widget and the ranking shortcode (but can be "
+#~ "changed with their parameters)."
+#~ msgstr ""
+#~ "Cuando se verifica el número de pronosticos (partidos y preguntas) un "
+#~ "aviso de usuario se mostrará en la página del ranking. Este ajuste "
+#~ "también afecta el valor predeterminado del widget de clasificación y el "
+#~ "shortcode de ranking (pero se puede cambiar con sus parámetros)."
+
+#~ msgid "plugin options changed"
+#~ msgstr "Opciones del plugin modificadas"
+
+#~ msgid "Shortcodes"
+#~ msgstr "Shortcodes"
+
+#~ msgid "Log"
+#~ msgstr "Log"
+
+#~ msgid ""
+#~ "<p>The log shows actions in the plugin that may have an affect on a  "
+#~ "particular ranking (e.g. when a score is entered for a match). If a "
+#~ "ranking shows a log you may want to consider doing a recalculation of "
+#~ "that ranking.</p><p>Log is only effective when <em>Automatic Calculation</"
+#~ "em> is off</p>"
+#~ msgstr ""
+#~ "<p> El log muestra las acciones en el plugin que pueden tener un efecto "
+#~ "en un ranking en particular (por ejemplo, cuando se introduce una "
+#~ "puntuación de un partido). Si un ranking muestra un log es posible que "
+#~ "desee hacer un nuevo cálculo de ese ranking.</p><p>Los logs son sólo "
+#~ "eficaces cuando <em> Cálculo automático </ em> esta desactivado </p>"
+
+#~ msgid "matches added or removed from ranking"
+#~ msgstr "partidos agregados o eliminados del ranking"
+
+#~ msgid "questions added or removed from ranking"
+#~ msgstr "preguntas agregadas o eliminadas del ranking"
+
+#~ msgid "show more"
+#~ msgstr "mostrar mas"
+
+#~ msgid "log"
+#~ msgstr "log"
+
+#~ msgid "calculate"
+#~ msgstr "Calcular"
+
+#~ msgid "Recalculate this ranking"
+#~ msgstr "Recalcular este ranking"
+
+#~ msgid "(users %d - %d of %d)"
+#~ msgstr "(Viendo %d - %d de %d usuarios)"
+
+#~ msgid "(step %d)"
+#~ msgstr "(paso %d)"
+
+#~ msgid "empty ranking table"
+#~ msgstr "tabla de ranking vacía"
+
+#~ msgid "check user predictions with actual results %s"
+#~ msgstr "comprobar los pronosticos de usuario con los resultados reales %s"
+
+#~ msgid "update score with points %s"
+#~ msgstr "actualizar puntuacion %s"
+
+#~ msgid "add bonus question points %s"
+#~ msgstr "agregar puntos de pregunta bonus %s"
+
+#~ msgid "ranking %d: update total score incrementally %s"
+#~ msgstr "ranking %d: actualizar puntaje total incrementalmente %s"
+
+#~ msgid "ranking %d: update ranking for users %s"
+#~ msgstr "ranking %d: actualizar ranking para usuarios %s"
+
+#~ msgid "ranking %d: calculate user ranking %s"
+#~ msgstr "ranking %d: calcular el ranking de usuarios %s"
+
+#~ msgid "score (re)calculation finished"
+#~ msgstr "Los puntos fueron (re)calculados"
+
+#~ msgid "Score (re)calculation"
+#~ msgstr "(re)cálculo de puntos"
+
+#~ msgid "You are about to recalculate the score table for the plugin."
+#~ msgstr ""
+#~ "Usted está a punto de volver a calcular la tabla de puntuación para el "
+#~ "plugin."
+
+#~ msgid ""
+#~ "A smart calculation tries to determine which rankings need an update. A "
+#~ "smart calculation will in most cases be faster than a full calculation."
+#~ msgstr ""
+#~ "Un cálculo inteligente intenta determinar qué ranking necesitan una "
+#~ "actualización. Un cálculo inteligente en la mayoría de los casos será más "
+#~ "rápido que un cálculo completo."
+
+#~ msgid "Full calculation"
+#~ msgstr "Cálculo completo"
+
+#~ msgid ""
+#~ "A full calculation recalculates all rankings. If you want to be "
+#~ "absolutely sure everything is recalculated, choose this option."
+#~ msgstr ""
+#~ "Un cálculo completo recalcula todos los rankings. Si usted quiere estar "
+#~ "absolutamente seguro de que todo se vuelve a calcular, elija esta opción."
+
+#~ msgid "Continue"
+#~ msgstr "Continuar"
+
+#~ msgid ""
+#~ "Something went wrong while (re)calculating the scores. Please check if "
+#~ "TRUNCATE/DROP or DELETE rights are available at the database and try "
+#~ "again."
+#~ msgstr ""
+#~ "Algo salió mal, mientras se (re)calculaban los puntajes. Por favor, "
+#~ "compruebe si los derechos TRUNCATE / DROP o DELETE están disponibles en "
+#~ "la base de datos y vuelva a intentarlo."
+
+#~ msgid "Are you sure? `OK` to deactivate, `Cancel` to stop."
+#~ msgstr "Estas seguro? \"OK\" para desactivar, \"Cancelar\" para detenerse"
+
+#~ msgid "user %d removed from pool"
+#~ msgstr "usuario %d eliminado del torneo"
+
+#~ msgid "Status for user"
+#~ msgstr "Estado de usuario"
+
+#~ msgid ""
+#~ "Extra meta information for the user. If filled this will be shown behind "
+#~ "the user's name on the ranking page and ranking shortcode."
+#~ msgstr ""
+#~ "Meta información extra del usuario. Si esta completa se mostrara junto al "
+#~ "nombre de usuario en las paginas de rankings y en el shortcode de ranking"
+
+#~ msgid "user %d deleted from blog"
+#~ msgstr "el usuario %d fue eliminado del blog"
+
+#~ msgid "Use Image"
+#~ msgstr "Usar imagen"
+
+#~ msgid "Options"
+#~ msgstr "Opciones"
+
+#~ msgid "Bonus question"
+#~ msgstr "Pregunta bonus"
+
+#~ msgid "answer correct"
+#~ msgstr "respuesta correcta"
+
+#~ msgid "charts"
+#~ msgstr "graficos"
+
+#~ msgid "No users selected :'("
+#~ msgstr "Ningun usuario seleccionado"
+
+#~ msgid "User Selector Widget"
+#~ msgstr "Widget selector de usuarios"
+
+#~ msgid ""
+#~ "this widget displays a list of users that can be selected. Only for use "
+#~ "on the Statistics page; it won't even show on all other pages."
+#~ msgstr ""
+#~ "Este widget muestra una lista de usuarios que se pueden seleccionar. Sólo "
+#~ "para uso en la página de estadísticas, no se mostrará en el resto de las "
+#~ "páginas."
+
+#~ msgid "height (px)"
+#~ msgstr "Altura (px)"
+
+#~ msgid "No users in the pool."
+#~ msgstr "Ningun usuario en el torneo"
+
+#~ msgid "d M Y, H:i"
+#~ msgstr "d M Y, H:i"
+
+#~ msgid "Advanced Options"
+#~ msgstr "Opciones avanzadas"
+
+#~ msgid "false answer"
+#~ msgstr "respuesta falsa"
+
+#~ msgid "Add, change or delete bonus questions"
+#~ msgstr "Agregar, cambiar o eliminar preguntas bonus"
+
+#~ msgid ""
+#~ "After saving bonus question data the pool ranking is recalculated. If you "
+#~ "have a lot of users this may take a while."
+#~ msgstr ""
+#~ "Despues de guardar la informacion de las preguntas bonus el ranking es "
+#~ "recalculado. Si tenes muchos participantes esta operacion puede demorar"
+
+#~ msgid ""
+#~ "On this page you can edit if a user answered the question correctly. If "
+#~ "you entered the correct answer with the question, it is displayed on this "
+#~ "page as a reference."
+#~ msgstr ""
+#~ "En esta pagina podes editar si un usuario respondió la pregunta "
+#~ "correctamente. Si ingresas la respuesta correcta con la pregunta, es "
+#~ "mostrada en esta pagina como una referencia"
+
+#~ msgid ""
+#~ "<strong>Important:</strong> The points for getting a correct answer are "
+#~ "only awarded once you saved this admin page."
+#~ msgstr ""
+#~ "<strong>Importante:</strong> Los puntos por obtener una respuesta "
+#~ "correcta solo son otorgados una vez que guardes esta pagina"
+
+#~ msgid ""
+#~ "You can give a user more points (or less) for a question. Use the field "
+#~ "'points' for this; leave the field empty for standard points."
+#~ msgstr ""
+#~ "Puedes dar mas puntos a un usuario (o menos) por una pregunta. Usa el "
+#~ "campo \"puntos\" para esto; deja el campo vacio para los puntos estandar"
+
+#~ msgid ""
+#~ "Use the \"User Answers\" link to check if users answered the questions "
+#~ "correctly."
+#~ msgstr ""
+#~ "Usa el link \"Respuestas de usuarios\" para revisar si los usuarios "
+#~ "respondieron la pregunta correctamente"
+
+#~ msgid ""
+#~ "After saving the match data the pool ranking is recalculated. If you have "
+#~ "a lot of users this may take a while."
+#~ msgstr ""
+#~ "Despues de guardar la informacion de los partidos el ranking es "
+#~ "recalculado. Si tenes muchos usuarios esto puede demorar"
+
+#~ msgid ""
+#~ "You can (temporarily) disable the automatic recalculation of scores in "
+#~ "the Plugin Options."
+#~ msgstr ""
+#~ "Puedes (temporalmente) desactivar el recalculo automático de puntajes en "
+#~ "las opciones del plugin"
+
+#~ msgid ""
+#~ "More information about the csv file import can be found in the <a href="
+#~ "\"%s\">help file</a>."
+#~ msgstr ""
+#~ "Mas información sobre la importación de archivos CSV puede ser encontrada "
+#~ "en <a href=\"%s\">la ayuda</a>."
+
+#~ msgid "Add, change or delete groups."
+#~ msgstr "Agregar, cambiar o borrar grupos"
+
+#~ msgid "Add, change or delete match types."
+#~ msgstr "Agregar, cambiar o eliminar fechas o rondas"
+
+#~ msgid "Default"
+#~ msgstr "Defecto"
+
+#~ msgid "Add, change or delete user defined rankings."
+#~ msgstr "Agregar, cambiar o eliminar rankings definidos por el usuario"
+
+#~ msgid ""
+#~ "On this page you can select the matches and/or questions you want to "
+#~ "include in your custom ranking."
+#~ msgstr ""
+#~ "En esta página puedes seleccionar los partidos y/o preguntas que se "
+#~ "quieren incluir en su ranking personalizado."
+
+#~ msgid "Add, change or delete messages in the shoutbox."
+#~ msgstr "Agregar, cambiar o eliminar mensajes shoutbox"
+
+#~ msgid "Scores recalculated."
+#~ msgstr "Los puntos fueron recalculados"
+
+#~ msgid "Change users in the football pool."
+#~ msgstr "Cambiar usuarios en el torneo"
+
+#~ msgid "Close (re)calculation"
+#~ msgstr "Cerrar (re)calculo"
+
+#~ msgid "http://wordpressfootballpool.wordpress.com/"
+#~ msgstr "http://wordpressfootballpool.wordpress.com/"
+
+#~ msgid ""
+#~ "This plugin adds a fantasy football pool to your blog. Standard "
+#~ "installation contains data for the UEFA 2012 European championship. But "
+#~ "you can change the teams and matches to a national competition. Logged in "
+#~ "users of your blog can predict outcomes of matches and earn extra points "
+#~ "with bonus questions. Every player can view scores and charts of the "
+#~ "other pool players."
+#~ msgstr ""
+#~ "Este plugin agrega torneos de fantasía a tu blog. La instalación incluye "
+#~ "información para el torneo UEFA 2012. Podes cambiar los equipos y "
+#~ "partidos a una competición nacional. Los usuarios logrados de tu blog "
+#~ "pueden pronosticar los partidos que se están por jugar y ganar puntos "
+#~ "extra con las preguntas bonos. Cada jugador puede ver la puntuación y los "
+#~ "gráficos de los otros participantes."
+
+#~ msgid "Antoine Hurkmans"
+#~ msgstr "Antoine Hurkmans"
+
+#~ msgid "mailto:wordpressfootballpool@gmail.com"
+#~ msgstr "escribime a: wordpressfootballpool@gmail.com"
+
+#~ msgid ""
+#~ "football, pool, poule, voetbal, game, prediction, competition, euro2012, "
+#~ "uefa2012, fifa worldcup, uefa championship"
+#~ msgstr ""
+#~ "futbol, torneo, juego, pronostico, competicion, euro2012, uefa2012, fifa, "
+#~ "uefa"
+
+#~ msgid "group A"
+#~ msgstr "grupo A"
+
+#~ msgid "group B"
+#~ msgstr "grupo B"
+
+#~ msgid "group C"
+#~ msgstr "grupo C"
+
+#~ msgid "group D"
+#~ msgstr "grupo D"
+
+#~ msgid "group E"
+#~ msgstr "grupo E"
+
+#~ msgid "group F"
+#~ msgstr "grupo F"
+
+#~ msgid "group G"
+#~ msgstr "grupo G"
+
+#~ msgid "group H"
+#~ msgstr "grupo H"
+
+#~ msgid "Round of 16"
+#~ msgstr "Ronda de 16"
+
+#~ msgid "Quarter finals"
+#~ msgstr "Cuartos de final"
+
+#~ msgid "Semi finals"
+#~ msgstr "Semifinales"
+
+#~ msgid "For third position"
+#~ msgstr "Para tercer puesto"
+
+#~ msgid "Final"
+#~ msgstr "Final"
+
+#~ msgid "Team Position"
+#~ msgstr "Pozycja drużyny"
+
+#, fuzzy
+#~ msgid "One prediction lock"
+#~ msgstr "zobacz typy"
+
+#~ msgid "Edit team position"
+#~ msgstr "pozycja w lidze"
+
+#~ msgid "national flag for"
+#~ msgstr "flaga narodowa dla"
+
+#~ msgid "http://wordpress.org/extend/plugins/football-pool/"
+#~ msgstr "http://wordpress.org/extend/plugins/football-pool/"
+
+#~ msgid ""
+#~ "This plugin adds a football pool for the 2012 European Champioship to "
+#~ "your blog. Logged in users of your blog can predict outcomes of matches "
+#~ "and earn extra points with bonus questions. View scores and charts of the "
+#~ "pool contenders. Use your own theme (or use the skin for Simply Works "
+#~ "Core that is included in the assets folder) and add the widgets that come "
+#~ "with this plugin. The plugin installs some custom tables in the database "
+#~ "with match information for the 2012 UEFA championship, but can be easily "
+#~ "manipulated with the match info for other championships (change the data/"
+#~ "data.txt file for this). <strong>Please note that deactivating this "
+#~ "plugin also destroys all your pool data</strong> (predictions, scores and "
+#~ "comments on pages that this plugin created). So if you want to keep "
+#~ "those, make sure you have a back-up of the database."
+#~ msgstr ""
+#~ "Ten plugin dodaje możliwość typowania wyników na Mistrzostwa Europy 2012 "
+#~ "do Twojego bloga. Zalogowani użytkownicy Twojego bloga mogą typować "
+#~ "wyniki meczów oraz dostawać dodatkowe punkty za pytania bonusowe. Oglądaj "
+#~ "wyniki i wykresy uczestników typowania. Używaj Twojego własnego motywu "
+#~ "(lub użyj skórki Simply Works Core, która jest dołączona w folderze "
+#~ "asset) i dodawaj widgety załączone do plugina. Plugin instaluje tabele w "
+#~ "bazie danych z informacjami o meczach Mistrzostw Europy, ale możesz łątwo "
+#~ "zmieniać te informacje dla innych rozgrywek (zmień plik /data/data."
+#~ "txt)<strong>Proszę zauważyć, że wyłączenie pluginu spowoduje usunięcie "
+#~ "wszystkie informacje</strong> (typowania, punkty i komentarze na stronie, "
+#~ "które plugin stworzył). Więc jeśli chcesz zachować te dane, upewnij się, "
+#~ "że masz kopię zapasową bazy danych."
+
+#~ msgid "Poland"
+#~ msgstr "Polska"
+
+#~ msgid "Greece"
+#~ msgstr "Grecja"
+
+#~ msgid "Russia"
+#~ msgstr "Rosja"
+
+#~ msgid "Czech Republic"
+#~ msgstr "Czechy"
+
+#~ msgid "Netherlands"
+#~ msgstr "Holandia"
+
+#~ msgid "Denmark"
+#~ msgstr "Dania"
+
+#~ msgid "Germany"
+#~ msgstr "Niemcy"
+
+#~ msgid "Portugal"
+#~ msgstr "Portugalia"
+
+#~ msgid "Spain"
+#~ msgstr "Hiszpania"
+
+#~ msgid "Italy"
+#~ msgstr "Wlochy"
+
+#~ msgid "Republic of Ireland"
+#~ msgstr "Irlandia"
+
+#~ msgid "Croatia"
+#~ msgstr "Chorwacja"
+
+#~ msgid "Ukrain"
+#~ msgstr "Ukraina"
+
+#~ msgid "Sweden"
+#~ msgstr "Szwecja"
+
+#~ msgid "England"
+#~ msgstr "Anglia"
+
+#~ msgid "Winner group A"
+#~ msgstr "Zwycięzca grupy A"
+
+#~ msgid "Winner group B"
+#~ msgstr "Zwycięzca grupy B"
+
+#~ msgid "Winner group C"
+#~ msgstr "Zwycięzca grupy C"
+
+#~ msgid "Winner group D"
+#~ msgstr "Zwycięzca grupy D"
+
+#~ msgid "Runner-up group A"
+#~ msgstr "Druga drużyna grupy A"
+
+#~ msgid "Runner-up group B"
+#~ msgstr "Druga drużyna grupy B"
+
+#~ msgid "Runner-up group C"
+#~ msgstr "Druga drużyna grupy C"
+
+#~ msgid "Runner-up group D"
+#~ msgstr "Druga drużyna grupy D"
+
+#~ msgid "Winner match 25"
+#~ msgstr "Zwycięzca meczu 25"
+
+#~ msgid "Winner match 26"
+#~ msgstr "Zwycięzca meczu 26"
+
+#~ msgid "Winner match 27"
+#~ msgstr "Zwycięzca meczu 27"
+
+#~ msgid "Winner match 28"
+#~ msgstr "Zwycięzca meczu 28"
+
+#~ msgid "Winner match 29"
+#~ msgstr "Zwycięzca meczu 29"
+
+#~ msgid "Winner match 30"
+#~ msgstr "Zwycięzca meczu 30"
+
+#~ msgid "Wedstrijden"
+#~ msgstr "Mecze"
+
+#~ msgid " place in the pool"
+#~ msgstr " pozycja w lidze"
+
+#~ msgid "Uitloggen"
+#~ msgstr "Wyloguj"
