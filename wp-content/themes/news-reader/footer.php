@@ -20,9 +20,6 @@
  * @hooked newsreader_footer_container_copy_right - 12
  * @hooked newsreader_footer_container_after - 13
  */
-if (function_exists('slbd_display_widgets')) {
-    echo slbd_display_widgets();
-}
 do_action('newsreader_footer_container');
 ?>
 <?php wp_footer(); ?>
