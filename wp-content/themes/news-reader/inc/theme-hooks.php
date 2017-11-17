@@ -271,9 +271,6 @@ if ( ! function_exists( 'newsreader_footer_container_before' ) ) :
   	 <footer class="footer section-small">
         <div class="container">
             <div class="row">
-                        <?php if (function_exists('slbd_display_widgets')) {
-                            echo slbd_display_widgets();
-                        } ?>
 	<?php
 	}
 
